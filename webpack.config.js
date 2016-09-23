@@ -34,7 +34,7 @@ const common = {
         include: PATHS.app
       },
       {
-        test: /\.jsx?$/,
+        test: /\.js?$/,
         loaders: ['react-hot', 'babel-loader'],
         include: PATHS.app
       },
@@ -86,10 +86,7 @@ if(TARGET === 'start' || !TARGET) {
       new HtmlWebpackPlugin({
         inject: true,
         template: require('html-webpack-template'),
-        appMountId: 'app',
-        scripts: [
-          'http://localhost:8080/build/bundle.js'
-        ]
+        appMountId: 'app'
       })
     ]
   });
