@@ -1,7 +1,7 @@
 import './bootstrap/css/bootstrap-theme.min.css'
 import './bootstrap/css/bootstrap.min.css'
 import './bootstrap/toastr.min.css'
-import './style.css'
+import './styles.css'
 import React from 'react';
 import { Router, Route, hashHistory } from 'react-router';
 import { render } from 'react-dom';

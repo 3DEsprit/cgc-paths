@@ -34,8 +34,8 @@ const common = {
         include: PATHS.app
       },
       {
-        test: /\.js?$/,
-        loaders: ['react-hot', 'babel-loader'],
+        test: /\.jsx?$/,
+        loaders: ['babel-loader'],
         include: PATHS.app
       },
       {
