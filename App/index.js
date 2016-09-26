@@ -8,9 +8,6 @@ import App from './components/App';
 const courses = require('json!./mock/courses.json');
 const paths = require('json!./mock/paths.json');
 
-// const courseList = courses[0];
-// const pathList = paths[0];
-console.log(paths);
 // Rendering main component
 render(<App courseList={courses} pathList={paths} />,
   document.getElementById('app')
