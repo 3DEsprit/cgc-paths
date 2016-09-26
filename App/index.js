@@ -3,18 +3,15 @@ import './bootstrap/css/bootstrap.min.css'
 import './bootstrap/toastr.min.css'
 import './styles.css'
 import React from 'react';
-import { Router, Route, hashHistory } from 'react-router';
 import { render } from 'react-dom';
 import App from './components/App';
-import List from './components/List';
+const courses = require('json!./mock/courses.json');
+const paths = require('json!./mock/paths.json');
 
+// const courseList = courses[0];
+// const pathList = paths[0];
+console.log(paths);
 // Rendering main component
-render(<Router history={hashHistory}>
-  <Route path="/" component={App} />
-  <Route path="blender" handler={List} />
-  <Route path="concept" handler={List} />
-  <Route path="sculpt" handler={List} />
-  <Route path="unity" handler={List} />
-</Router>,
+render(<App courseList={courses} pathList={paths} />,
   document.getElementById('app')
 );
