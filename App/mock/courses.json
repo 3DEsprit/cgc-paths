@@ -1,7 +1,42 @@
 [
   {
     "id": 1,
-    "name": "Course Name",
-    "flow": "Blender/Concept/Sculpt/Unity",
+    "name": "Course Name 1",
+    "url": ""
+  },
+  {
+    "id": 2,
+    "name": "Course Name 2",
+    "url": ""
+  },
+  {
+    "id": 3,
+    "name": "Course Name 3",
+    "url": ""
+  },
+  {
+    "id": 4,
+    "name": "Course Name 4",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "name": "Course Name 5",
+    "url": ""
+  },
+  {
+    "id": 6,
+    "name": "Course Name 6",
+    "url": ""
+  },
+  {
+    "id": 7,
+    "name": "Course Name 7",
+    "url": ""
+  },
+  {
+    "id": 8,
+    "name": "Course Name 8",
+    "url": ""
   }
 ]
