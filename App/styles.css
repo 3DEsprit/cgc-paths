@@ -19,6 +19,12 @@ body {
   padding-bottom: 30px;
 }
 
+.start {
+  color: #e7e7e7;
+  text-align: center;
+  padding: 50px 20px;
+}
+
 /* Paths */
 
 .pathFocus {
@@ -56,6 +62,10 @@ body {
   padding: 20px 20px;
   margin-bottom: 20px;
   border-radius: 15px;
+}
+
+.listItem:hover {
+  background-color: #4f565f;
 }
 
 .courseWell {
