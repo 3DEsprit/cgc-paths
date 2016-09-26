@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
+import PathItem from './visual/PathItem';
 
 export default class Path extends Component {
   constructor(props, state) {
     super(props, state);
-
-    console.log('Path Props: ', this.props);
-    this.state = {
-
-    }
   }
 
   render() {
@@ -16,25 +12,13 @@ export default class Path extends Component {
         <ul>
           <div className="listContainer">
             {this.props.pathList.map((path) => {
-              if(path.flow == this.props.flow) {
+              if (path.flow == this.props.flow) {
                 return (
-                  <div className="wrapper" key={path.id}>
-                    <div className="courseWell">
-                    Dot
-                    </div>
-                    <li className="listItem"
-                      key={path.id}
-                      onclick={
-
-                      }
-                    >
-                      <div className="courseItem">
-                        <p className="pathFocus">Focus: {path.focus}</p>
-                        <p className="pathFlow">Flow: {path.flow}</p>
-                        <p className="pathCourses">Courses: {path.path}</p>
-                      </div>
-                    </li>
-                  </div>
+                  <PathItem
+                    Item={path}
+                    key={path.id}
+                    courseView={this.props.courseView}
+                  />
                 )
               }
             })}
