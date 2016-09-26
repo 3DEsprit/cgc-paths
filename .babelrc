@@ -13,6 +13,9 @@
       "presets": [
 
       ]
+    },
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
     }
   }
 }
