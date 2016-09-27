@@ -21,7 +21,7 @@ const common = {
   },
   output: {
     path: PATHS.build,
-    filename: 'bundle.js'
+    filename: '/bundle.js'
   },
   node: {
     fs: 'empty'
