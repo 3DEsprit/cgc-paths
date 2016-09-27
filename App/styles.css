@@ -10,6 +10,12 @@ body {
   background-color: #3D4247;
 }
 
+h1 {
+  color: #e7e7e7;
+  text-align: center;
+  padding: 50px 20px;
+}
+
 #header {
   text-align: center;
   font-weight: bold;
@@ -45,7 +51,21 @@ body {
   text-align: left;
 }
 
-/* List */
+
+/* Course List */
+
+.courseName {
+  display: inline-block;
+  width: 90%;
+  text-align: left;
+}
+
+.courseDesc {
+  display: inline-block;
+  width: 90%;
+  text-align: left;
+}
+
 
 .listContainer {
   margin: 20px 20px;
@@ -62,21 +82,57 @@ body {
   padding: 20px 20px;
   margin-bottom: 20px;
   border-radius: 15px;
+  border: 5px solid #23272c;
+  box-shadow: inset 2px 2px black;
 }
 
 .listItem:hover {
-  background-color: #4f565f;
+  background-color: #282d33;
 }
 
 .courseWell {
   display: inline-block;
+  background-color: #23272c;
+  border-radius: 50% 50%;
   text-align: left;
-  width: 10%;
+  width: 5%;
+  margin-right: 5%;
   padding-top: 20px;
 }
 
 .courseItem {
   text-align: left;
+}
+
+
+/* Paths */
+
+.pathItem {
+  display: inline-block;
+  width: 90%;
+  height: 100px;
+  background-color: #23272c;
+  text-align: center;
+  list-style: none;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 5px solid #23272c;
+  box-shadow: inset 2px 2px black;
+}
+
+/* Links */
+
+a {
+  color: #e7e7e7;
+}
+
+a:hover {
+  color: #e7e7e7;
+}
+
+a:active {
+  color: #e7e7e7;
 }
 
 /* Buttons */
@@ -90,8 +146,12 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-left: 10px;
+  margin-left: 5px;
   width: 150px;
+}
+
+.button .active {
+
 }
 
 .button:focus {
