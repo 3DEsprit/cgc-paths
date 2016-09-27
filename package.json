@@ -8,7 +8,7 @@
     "start": "webpack-dev-server",
     "test": "mocha --compilers js:babel-core/register --require ./Tools/test_helper.js './App/test/*.spec.js'",
     "test:watch": "npm run test -- --watch",
-    "postbuild": "babel-node Tools/distServer.js"
+    "postbuild": "node Tools/distServer.js"
   },
   "engines": {
     "node": "6.6.0"
