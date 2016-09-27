@@ -1,20 +1,21 @@
 import React from 'react';
+import LinkWrap from './LinkWrap';
 
-const Header = ({changeFlow, selected}) => {
+const Header = (props) => {
   return (
     <div id="header">
-      <button
+      <LinkWrap to="/paths/Blender"><button
         className="blenderButton button"
-        onClick={() => changeFlow('Blender')}>Blender</button>
-      <button
+        >Blender</button></LinkWrap>
+      <LinkWrap to="/paths/Concept"><button
         className="conceptButton button"
-        onClick={() => changeFlow('Concept')}>Concept</button>
-      <button
+        >Concept</button></LinkWrap>
+      <LinkWrap to="/paths/Sculpt"><button
         className="sculptButton button"
-        onClick={() => changeFlow('Sculpt')}>Sculpt</button>
-      <button
+        >Sculpt</button></LinkWrap>
+      <LinkWrap to="/paths/Unity"><button
         className="unityButton button"
-        onClick={() => changeFlow('Unity')}>Unity</button>
+        >Unity</button></LinkWrap>
     </div>
   )
 }
