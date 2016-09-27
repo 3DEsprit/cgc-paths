@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
+import LinkWrap from './LinkWrap';
 
 const ListItem = ({course}) => {
   return (
@@ -6,13 +7,18 @@ const ListItem = ({course}) => {
       <div className="courseWell">
         Dot
       </div>
-      <li className="listItem" key={course.id}>
+      <li className="listItem">
         <div className="courseItem">
-          Name: {course.name} Flow: {course.flow}
+          <p className="courseName">Name: {course.name}</p>
+          <p className="courseDesc">Description: {course.desc}</p>
         </div>
       </li>
     </div>
   )
+}
+
+ListItem.propTypes = {
+  course: PropTypes.object.isRequired
 }
 
 export default ListItem;

@@ -1,24 +1,27 @@
 import React, { PropTypes } from 'react';
+import LinkWrap from './LinkWrap';
 
-const PathItem = ({Item, courseView}) => {
+const PathItem = ({Item}) => {
   return (
     <div className="wrapper">
       <div className="courseWell">
-      Dot
+        Dot
       </div>
-      <li className="listItem" onClick={() => {courseView(Item.id)}}>
+      <LinkWrap to={'/courses/' + Item.id}>
+      <li className="pathItem">
         <div className="courseItem">
-          <p className="pathFocus">Focus: {Item.focus}</p>
+          <p className="pathFocus">Focus: {Item.name}</p>
           <p className="pathFlow">Flow: {Item.flow}</p>
-          <p className="pathCourses">Courses: {Item.path}</p>
+          <p className="pathCourses">Courses: {Item.list}</p>
         </div>
       </li>
+      </LinkWrap>
     </div>
   )
 }
 
 PathItem.propTypes = {
-  courseView: PropTypes.func.isRequired
+  Item: PropTypes.object.isRequired
 }
 
 export default PathItem;
