@@ -1,13 +1,14 @@
 {
   "name": "cgcpaths",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "CGCookie Paths",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config ./webpack.production.config.js --progress --colors",
+    "build": "webpack --config ./webpack.config.js --progress --colors",
     "start": "webpack-dev-server",
     "test": "mocha --compilers js:babel-core/register --require ./io-client/test/utils/test_helper.js './io-client/test/*.jsx'",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "postbuild": "NODE_ENV='production' babel-node Tools/distServer.js"
   },
   "engines": {
     "node": "6.6.0"
@@ -15,13 +16,14 @@
   "author": "DBrown",
   "license": "ISC",
   "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-router": "^2.8.1",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.1",
     "babel-cli": "^6.14.0",
     "babel-core": "^6.14.0",
+    "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
+  },
+  "devDependencies": {
     "babel-loader": "^6.2.5",
     "babel-plugin-react-hot": "^1.0.4",
     "babel-plugin-transform-class-properties": "^6.11.5",
@@ -36,11 +38,10 @@
     "json-loader": "^0.5.4",
     "npm-install-webpack-plugin": "^4.0.4",
     "react-hot-loader": "^3.0.0-beta.5",
-    "react-router": "^2.8.1",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1",
     "webpack-merge": "^0.14.1"
-  },
-  "devDependencies": {
   }
 }

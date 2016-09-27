@@ -1,1 +1,1 @@
-web: webpack-dev-server
+web: node Tools/distServer.js

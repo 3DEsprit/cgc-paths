@@ -2,21 +2,27 @@
   "presets": [
     "es2015",
     "react",
-    "react-hmre",
     "stage-0"
   ],
-  "plugins": [
-    "react-hot-loader/babel",
-    "transform-class-properties"
-  ],
   "env": {
-    "start": {
+    "development": {
+      "plugins": [["react-transform", {
+        "transforms": [{
+          "transform": [
+            "transform-react-jsx-source",
+            "transform-class-properties",
+            "react-hot-loader/babel"
+          ],
+          "imports": ["react"],
+          "locals": ["module"]
+        }]
+      }]],
       "presets": [
-
+        "react-hmre"
       ]
     },
-    "development": {
-      "plugins": ["transform-react-jsx-source"]
+    "production": {
+      "plugins": []
     }
   }
 }
