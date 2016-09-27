@@ -1,42 +1,146 @@
 [
   {
+    "id": 0,
+    "flow": ["Blender"],
+    "name": "3D Generalist",
+    "focus": "Everything 3D Using Blender",
+    "list": [
+      1,2,3,4,5,6,7,8,9
+    ]
+  },
+  {
     "id": 1,
     "flow": ["Blender"],
-    "focus": "Architecture",
-    "path": [
-      1,2,3,4,5,6,7
+    "name": "Character Modeling",
+    "focus": "Character Modeling in Blender",
+    "list": [
+      0,1,2,3,7,8,9,41,45,36
     ]
   },
   {
     "id": 2,
     "flow": ["Blender"],
-    "focus": "Character",
-    "path": [
-      1,2,3
+    "name": "Game Asset/Character Creation",
+    "focus": "3D Game Asset & Character Creation with Blender",
+    "list": [
+      0,1,2,3,6,7,36,45,46,47
     ]
   },
   {
     "id": 3,
     "flow": ["Concept"],
-    "focus": "Blender",
-    "path": [
-      4,5,6,7
+    "name": "Digital Illustration",
+    "focus": "Digital Character Illustration",
+    "list": [
+      10,11,12,13,14,15,41,44
     ]
   },
   {
     "id": 4,
-    "flow": ["Sculpt"],
-    "focus": "Illustration",
-    "path": [
-      1,4,5,7
+    "flow": ["Concept"],
+    "name": "Concept Art",
+    "focus": "Digital Concept Art",
+    "list": [
+      10,11,12,13,14,15,39
     ]
   },
   {
     "id": 5,
+    "flow": ["Sculpt"],
+    "name": "Traditonal Sculpting",
+    "focus": "Traditional Sculpting",
+    "list": [
+      16,17,18,19,20
+    ]
+  },
+  {
+    "id": 6,
     "flow": ["Unity"],
-    "focus": "Game Development",
-    "path": [
-      2,3,4,5,6
+    "name": "Game Development",
+    "focus": "Creating Games with Unity",
+    "list": [
+      21,22,23,24,25,26,27,28,29,30,31,32,33,34,35
+    ]
+  },
+  {
+    "id": 7,
+    "flow": ["Unity"],
+    "name": "Game Programming",
+    "focus": "Programming in C# with Unity",
+    "list": [
+      21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,42
+    ]
+  },
+  {
+    "id": 8,
+    "flow": ["Blender"],
+    "name": "Hard-Surface Modeling",
+    "focus": "Modeling Hard-Surface Objects",
+    "list": [
+      0,1,2,3,6,7,8,9,46
+    ]
+  },
+  {
+    "id": 9,
+    "flow": ["Blender"],
+    "name": "Hard-Surface Animation",
+    "focus": "Modeling and Animating Hard-Surface Objects",
+    "list": [
+      0,1,2,3,4,5,6,7,8,9,46
+    ]
+  },
+  {
+    "id": 10,
+    "flow": ["Blender"],
+    "name": "Digital Sculpting",
+    "focus": "Learn all About Digital Sculpting",
+    "list": [
+      0,1,2,3,6,7,38,37,40
+    ]
+  },
+  {
+    "id": 11,
+    "flow": ["Blender"],
+    "name": "Animation",
+    "focus": "Learn all About Animation with Blender",
+    "list": [
+      0,1,2,3,4,5,6,7,8,9,45,47
+    ]
+  },
+  {
+    "id": 12,
+    "flow": ["Unity"],
+    "name": "2D Game Development",
+    "focus": "Learn to create 2D games using Unity",
+    "list": [
+      21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,43
+    ]
+  },
+  {
+    "id": 13,
+    "flow": ["Blender"],
+    "name": "Visual Effects",
+    "focus": "Learn all About creating amazing visuals using Blender",
+    "list": [
+      1,2,3,4,5,6,7,8,9
+    ]
+  },
+  {
+    "id": 14,
+    "flow": ["Blender", "Unity"],
+    "name": "3D Game Development Flow",
+    "focus": "Learn the entire process of creating a 3D game starting with modeling",
+    "list": [
+      0,1,2,3,4,5,6,7,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36
+    ]
+  },
+  {
+    "id": 12,
+    "flow": ["Unity"],
+    "name": "2D Game Development Flow",
+    "focus": "Learn the entire process of creating a 2D game starting with pixel art",
+    "list": [
+      21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,43
     ]
   }
 ]

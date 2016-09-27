@@ -7,12 +7,14 @@ const ListItem = ({course}) => {
       <div className="courseWell">
         Dot
       </div>
-      <li className="listItem">
-        <div className="courseItem">
-          <p className="courseName">Name: {course.name}</p>
-          <p className="courseDesc">Description: {course.desc}</p>
-        </div>
-      </li>
+      <a href={course.url} target={course.name}>
+        <li className="listItem">
+          <div className="courseItem">
+            <p className="courseName">{course.name}</p>
+            <p className="courseDesc">Description: {course.desc}</p>
+          </div>
+        </li>
+      </a>
     </div>
   )
 }
