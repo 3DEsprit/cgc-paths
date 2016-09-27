@@ -127,7 +127,7 @@
   },
   {
     "id": 14,
-    "flow": ["Blender", "Unity"],
+    "flow": ["Unity"],
     "name": "3D Game Development Flow",
     "focus": "Learn the entire process of creating a 3D game starting with modeling",
     "list": [
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 15,
     "flow": ["Unity"],
     "name": "2D Game Development Flow",
     "focus": "Learn the entire process of creating a 2D game starting with pixel art",
