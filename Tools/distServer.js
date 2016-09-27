@@ -6,6 +6,8 @@ var compression = require('compression');
 
 const app = express();
 
+process.env.BABEL_ENV="production";
+
 app.use(compression());
 app.use(express.static('build'));
 
