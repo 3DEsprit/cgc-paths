@@ -10,15 +10,14 @@
         "transforms": [{
           "transform": [
             "transform-react-jsx-source",
-            "transform-class-properties",
-            "react-hot-loader/babel"
+            "transform-class-properties"
           ],
           "imports": ["react"],
           "locals": ["module"]
         }]
       }]],
       "presets": [
-        "react-hmre"
+
       ]
     },
     "production": {
