@@ -9,6 +9,9 @@
     "test": "mocha --compilers js:babel-core/register --require ./io-client/test/utils/test_helper.js './io-client/test/*.jsx'",
     "test:watch": "npm run test -- --watch"
   },
+  "engines": {
+    "node": "6.6.0"
+  },
   "author": "DBrown",
   "license": "ISC",
   "dependencies": {
