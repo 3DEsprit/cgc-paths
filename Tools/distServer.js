@@ -5,7 +5,7 @@ import compression from 'compression';
 /*eslint-disable no-console */
 process.env['NODE_ENV']='production';
 
-const port = 3000;
+const port = process.env.PORT;
 const app = express();
 
 app.use(compression());
