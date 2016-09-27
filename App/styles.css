@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+p {
+  margin: 0 0;
+}
+
 body {
   color: #e7e7e7;
   background-color: #3D4247;
@@ -37,14 +41,14 @@ ul {
 
 /* Paths */
 
-.pathItem {
+.pathItem, .listItem {
   display: inline-block;
   width: 90%;
   height: 100px;
   background-color: #23272c;
   text-align: center;
   list-style: none;
-  padding: 20px 20px;
+  padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 15px;
   border: 5px solid #23272c;
@@ -53,9 +57,10 @@ ul {
 
 .pathName {
   display: inline-block;
-  width: 60%;
+  width: 80%;
   text-align: left;
   font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
 .pathFocus {
@@ -66,7 +71,7 @@ ul {
 
 .pathFlow {
   display: inline-block;
-  width: 40%;
+  width: 20%;
   text-align: right;
 }
 
@@ -84,6 +89,7 @@ ul {
   width: 100%;
   text-align: left;
   font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
 .courseDesc {
@@ -96,20 +102,6 @@ ul {
 .listContainer {
   margin: 20px 20px;
   vertical-align: center;
-}
-
-.listItem {
-  display: inline-block;
-  width: 90%;
-  height: 100px;
-  background-color: #23272c;
-  text-align: center;
-  list-style: none;
-  padding: 20px 20px;
-  margin-bottom: 20px;
-  border-radius: 15px;
-  border: 5px solid #23272c;
-  box-shadow: inset 2px 2px black;
 }
 
 .listItem:hover {
@@ -128,6 +120,7 @@ ul {
 }
 
 .courseItem {
+
   text-align: left;
 }
 
