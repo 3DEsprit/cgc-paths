@@ -18,7 +18,7 @@ export default class List extends Component {
     let pathId = this.props.params.path_id;
     let current = pathList[pathId].list;
     return (
-      <div className="listContainer">
+      <div className="listcontainer">
         <ul>
           {current.map((course) => {
             return (

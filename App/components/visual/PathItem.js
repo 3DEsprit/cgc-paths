@@ -4,15 +4,15 @@ import LinkWrap from './LinkWrap';
 const PathItem = ({Item}) => {
   return (
     <div className="wrapper">
-      <div className="courseWell">
+      <div className="coursewell">
         Dot
       </div>
       <LinkWrap to={'/courses/' + Item.id}>
-      <li className="pathItem">
-        <div className="courseItem">
-          <p className="pathName">{Item.name}</p>
-          <p className="pathFlow">{Item.flow}</p>
-          <p className="pathFocus">{Item.focus}</p>
+      <li className="pathitem">
+        <div className="courseitem">
+          <p className="pathname">{Item.name}</p>
+          <p className="pathflow">{Item.flow}</p>
+          <p className="pathfocus">{Item.focus}</p>
         </div>
       </li>
       </LinkWrap>

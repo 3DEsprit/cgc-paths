@@ -1,290 +1,149 @@
 [
   {
     "id": 0,
-    "name": "Blender Basics",
-    "desc": "The first steps to learning Blender",
-    "url": "https://cgcookie.com/course/blender-basics/"
+    "name": "Introduction to Blender",
+    "desc": "The best place to start",
+    "flow": true,
+    "url": "https://cgcookie.com/flow/introduction-to-blender/"
   },
   {
     "id": 1,
-    "name": "Mesh Modeling Fundamentals",
-    "desc": "Getting started with 3D Modeling",
-    "url": "https://cgcookie.com/course/mesh-modeling-fundamentals/"
+    "name": "Modeling in Blender",
+    "desc": "Let's learn Modeling!",
+    "flow": true,
+    "url": "https://cgcookie.com/flow/modeling-in-blender/"
   },
   {
     "id": 2,
-    "name": "Fundamentals of Texturing",
-    "desc": "Texture Painting, UV Unwrapping, Image Baking",
-    "url": "https://cgcookie.com/course/introduction-to-texturing/"
-  },
-  {
-    "id": 3,
-    "name": "Fundamentals of Shading",
-    "desc": "Blender Render, and Cycles Shading",
-    "url": "https://cgcookie.com/course/shading-fundamentals-in-cycles/"
-  },
-  {
-    "id": 4,
-    "name": "Fundamentals of Rigging",
-    "desc": "Learn to create rigs for your soon to be animated objects",
-    "url": "https://cgcookie.com/course/fundamentals-of-rigging/"
-  },
-  {
-    "id": 5,
-    "name": "Fundamentals of Animation",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-animation/"
-  },
-  {
-    "id": 6,
-    "name": "Fundamentals of Dynamics",
-    "desc": "Physics, Simulation, and Particles in Blender",
-    "url": "https://cgcookie.com/course/fundamentals-of-dynamics/"
-  },
-  {
-    "id": 7,
-    "name": "Fundamentals of Lighting",
-    "desc": "The many ways to use light in Blender",
-    "url": "https://cgcookie.com/course/fundamentals-of-lighting/"
-  },
-  {
-    "id": 8,
-    "name": "Fundamentals of Rendering",
-    "desc": "Rendering with the Cycles Render Engine",
-    "url": "https://cgcookie.com/course/introduction-to-rendering/"
-  },
-  {
-    "id": 9,
-    "name": "Fundamentals of Compositing",
-    "desc": "Post-Processing in Blender",
-    "url": "https://cgcookie.com/course/fundamentals-of-compositing/"
+    "name": "Introduction to Game Asset Creation",
+    "desc": "All about making game assets for games",
+    "flow": true,
+    "url": "https://cgcookie.com/flow/introduction-to-game-asset-creation/"
   },
   {
     "id": 10,
-    "name": "Basics of Digital Painting",
+    "name": "Concept Art Fundamentals",
     "desc": "Learning the basics of 2D digital art",
-    "url": "https://cgcookie.com/course/digital-painting-basics/"
+    "flow": true,
+    "url": "https://cgcookie.com/flow/introduction-to-digital-art/"
   },
   {
     "id": 11,
-    "name": "Shapes, Forms, and Contrast",
-    "desc": "Yes, I used the Oxford Comma in the title",
-    "url": "https://cgcookie.com/course/lighting-and-values/"
-  },
-  {
-    "id": 12,
-    "name": "Lighting and Values",
-    "desc": "Learn about using lighting and values in your digital art",
-    "url": "https://cgcookie.com/course/lighting-and-values-2/"
-  },
-  {
-    "id": 13,
-    "name": "The Color Course",
-    "desc": "Everything color (value)",
-    "url": "https://cgcookie.com/course/color-course-understanding-color/"
-  },
-  {
-    "id": 14,
-    "name": "Introduction to Materials and Texture",
-    "desc": "Learn to add realism to your materials",
-    "url": "https://cgcookie.com/course/introduction-to-materials-and-texture/"
-  },
-  {
-    "id": 15,
-    "name": "Introduction to 2D Perspective",
+    "name": "Introduction to Traditional Drawing",
     "desc": "",
-    "url": "https://cgcookie.com/course/the-perspective-course/"
+    "flow": true,
+    "url": "https://cgcookie.com/flow/introduction-to-traditional-drawing/"
   },
   {
     "id": 16,
-    "name": "Sculpting Basics",
+    "name": "Introduction to Clay Sculpting",
     "desc": "Get started with the basics of traditonal sculpting",
+    "flow": true,
     "url": "https://cgcookie.com/course/sculpting-basics/"
   },
   {
-    "id": 17,
-    "name": "Fundamentals of Sculpting with Clay",
-    "desc": "Learn the basics of sculpting with clay",
-    "url": "https://cgcookie.com/course/fundamentals-sculpting-with-clay/"
-  },
-  {
-    "id": 18,
-    "name": "Introduction to Human Anatomy and Basic Proportions",
-    "desc": "Start sculpting the human figure",
-    "url": "https://cgcookie.com/course/introduction-to-human-anatomy-and-basic-proportions/"
-  },
-  {
-    "id": 19,
-    "name": "Introduction to Mold Making and Molding Techniques",
-    "desc": "Learn to make your own molds",
-    "url": "https://cgcookie.com/course/introduction-to-mold-making-and-molding-techniques/"
-  },
-  {
-    "id": 20,
-    "name": "Introduction to Casting & Casting Techniques",
-    "desc": "All about casting",
-    "url": "https://cgcookie.com/course/introduction-to-casting-casting-techniques/"
-  },
-  {
     "id": 21,
-    "name": "Unity Basics: Introduction For Beginners",
+    "name": "Introduction to Unity",
     "desc": "",
+    "flow": true,
     "url": "https://cgcookie.com/course/unity-basics-introduction-for-beginners/"
   },
   {
     "id": 22,
-    "name": "Fundamentals of The Unity Interface",
+    "name": "First Person Shooter",
     "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-the-unity-interface/"
+    "flow": true,
+    "url": "https://cgcookie.com/flow/first-person-shooter/"
   },
   {
     "id": 23,
-    "name": "Fundamentals of Materials and Textures",
+    "name": "Developing for Virtual Reality",
     "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-materials-and-textures/"
+    "flow": true,
+    "url": "https://cgcookie.com/flow/developing-for-virtual-reality/"
   },
   {
     "id": 24,
-    "name": "Fundamentals of Lighting",
+    "name": "",
     "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-lighting-2/"
-  },
-  {
-    "id": 25,
-    "name": "Fundamentals of Physics",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-physics/"
-  },
-  {
-    "id": 26,
-    "name": "Fundamentals of UI Design",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-ui-design/"
-  },
-  {
-    "id": 27,
-    "name": "Fundamentals of 2D Development",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-2d-development/"
-  },
-  {
-    "id": 28,
-    "name": "Fundamentals of Particle Systems",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-particle-systems/"
-  },
-  {
-    "id": 29,
-    "name": "Fundamentals of Terrain Generation",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-terrain-generation/"
-  },
-  {
-    "id": 30,
-    "name": "Fundamentals of Tree Creation",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-tree-creation/"
-  },
-  {
-    "id": 31,
-    "name": "Fundamentals of Pathfinding",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-pathfinding/"
-  },
-  {
-    "id": 32,
-    "name": "Fundamentals of Image Effects",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-image-effects/"
-  },
-  {
-    "id": 33,
-    "name": "Fundamentals of Mechanim Animation",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-mecanim-animation/"
-  },
-  {
-    "id": 34,
-    "name": "Fundamentals of Rigged Animations",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-rigged-animations/"
-  },
-  {
-    "id": 35,
-    "name": "Fundamentals of Game Publishing",
-    "desc": "",
-    "url": "https://cgcookie.com/course/fundamentals-of-game-publishing/"
+    "flow": false,
+    "url": ""
   },
   {
     "id": 36,
     "name": "Shader Forge",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/course/shader-forge/"
   },
   {
     "id": 37,
     "name": "Sculpting the Wrangler",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/course/sculpting-the-wrangler/"
   },
   {
     "id": 38,
     "name": "Art of Sculpting",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/course/art-of-sculpting/"
   },
   {
     "id": 39,
     "name": "Wrangler Concept Art Course",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/course/wrangler-concept-art-course/"
-  },
-  {
-    "id": 40,
-    "name": "Introducion to Retopology",
-    "desc": "",
-    "url": "https://cgcookie.com/course/introduction-to-retopology/"
   },
   {
     "id": 41,
     "name": "Creating Characters, Where to Start?",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/course/creating-characters-where-to-start/"
   },
   {
     "id": 42,
     "name": "C# Bootcamp for Unity",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/course/c-bootcamp-for-unity/"
   },
   {
     "id": 43,
     "name": "Creating a 2D Space Shooter",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/course/creating-a-2d-space-shooter/"
   },
   {
     "id": 44,
     "name": "Gesture Importance",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/tutorial/gesture-importance/"
   },
   {
     "id": 45,
     "name": "Introducion to Character Modeling",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/course/introduction-to-character-modeling/"
   },
   {
     "id": 46,
     "name": "Introduction to Hard-Surface Modeling",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/course/introduction-to-hard-surface-modeling/"
   },
   {
     "id": 47,
     "name": "Character Animation Toolkit",
     "desc": "",
+    "flow": false,
     "url": "https://cgcookie.com/course/character-animation-toolkit/"
   }
 ]

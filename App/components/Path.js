@@ -18,7 +18,7 @@ export default class Path extends Component {
     return (
       <div>
         <ul>
-          <div className="listContainer">
+          <div className="listcontainer">
             {pathList.map((path) => {
               if (path.flow == flow) {
                 return (

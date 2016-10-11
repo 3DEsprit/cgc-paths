@@ -3,14 +3,14 @@ import React, { PropTypes } from 'react';
 const ListItem = ({course}) => {
   return (
     <div className="wrapper">
-      <div className="courseWell">
+      <div className="coursewell">
         Dot
       </div>
       <a href={course.url} target={course.name}>
-        <li className="listItem">
-          <div className="courseItem">
-            <p className="courseName">{course.name}</p>
-            <p className="courseDesc">Description: {course.desc}</p>
+        <li className="listitem">
+          <div className="courseitem">
+            <p className="coursename">{course.name}</p>
+            <p className="coursedesc">Description: {course.desc}</p>
           </div>
         </li>
       </a>
