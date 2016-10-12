@@ -1,11 +1,11 @@
-import React, { PropTypes } from 'react';
+&nbsp;import React, { PropTypes } from 'react';
 import LinkWrap from './LinkWrap';
 
 const PathItem = ({Item}) => {
   return (
     <div className="wrapper">
       <div className="coursewell">
-        Dot
+        &nbsp;
       </div>
       <LinkWrap to={'/courses/' + Item.id}>
       <li className="pathitem">

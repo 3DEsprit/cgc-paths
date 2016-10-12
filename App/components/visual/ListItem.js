@@ -4,7 +4,7 @@ const ListItem = ({course}) => {
   return (
     <div className="wrapper">
       <div className="coursewell">
-        Dot
+        &nbsp;
       </div>
       <a href={course.url} target={course.name}>
         <li className="listitem">
