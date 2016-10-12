@@ -14,7 +14,7 @@
     "node": "6.6.0"
   },
   "author": "DBrown",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",
     "react": "^15.3.2",
