@@ -8,6 +8,7 @@
     "start": "webpack-dev-server",
     "test": "mocha --compilers js:babel-core/register --require ./Tools/test_helper.js './App/test/*.spec.js'",
     "test:watch": "npm run test -- --watch",
+    "prebuild": "sass --style compressed App/css/styles.scss App/css/styles.css",
     "postbuild": "node Tools/distServer.js"
   },
   "engines": {
