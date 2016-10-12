@@ -1,0 +1,23 @@
+// import
+@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+
+body {
+  background-color: $backbase;
+  color: $foreground;
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+  text-align: center;
+
+  menu,
+  ul,
+  ol {
+    padding: 0;
+  }
+}

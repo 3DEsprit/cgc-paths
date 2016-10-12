@@ -1,0 +1,151 @@
+// Reset
+// @import '_reset.scss';
+
+// Variables
+@import '_mixins.scss';
+@import '_variables.scss';
+
+// Globals
+@import '_globals.scss';
+
+.start {
+  & h1 {
+    color: $foreground;
+    padding: 50px 20px;
+    text-align: center;
+  }
+}
+
+.header {
+  background-color: $header;
+  color: $foreground;
+  font-weight: bold;
+  padding-bottom: $headpad * 2;
+  padding-top: $headpad;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.button {
+  background-color: $items;
+  border: 0;
+  color: $foreground;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .7s;
+  width: 150px;
+
+  &.active {
+    background-color: $active;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover,
+  &:active {
+    background-color: $button;
+  }
+}
+
+.listcontainer {
+  // margin: $itemmar;
+
+  .listitem,
+  .pathitem {
+    @include path(90%, center);
+    background-color: $items;
+    border: 5px solid $items;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px $black;
+    height: $itemheight;
+    list-style: none;
+    margin-bottom: $itemmar * 2;
+    margin-top: 0;
+    padding: 0 $itemmar * 2;
+    transition: background-color 1.5s .5s ease-in, transform 2s;
+
+    &:hover {
+      background-color: lighten($items, 5%);
+      transform: scale(1.02, 1.02);
+    }
+  }
+
+  a {
+    color: $foreground;
+  }
+
+  &:hover {
+    color: lighten($foreground, 10%);
+  }
+}
+
+.courseitem {
+  text-align: left;
+}
+
+.listtype,
+.listshop,
+.listcourse {
+  @include path(20%, right);
+}
+
+.listshop {
+  color: $workshop;
+}
+
+.listcourse {
+  color: $course;
+}
+
+.listdesc {
+  @include path(100%, left);
+}
+
+.pathcourses {
+  @include path(100%, left);
+}
+
+.listname {
+  @include path(80%, left);
+  font-size: 1.2em;
+}
+
+.listfocus {
+  @include path(100%, left);
+}
+
+.coursewell {
+  background-color: $items;
+  border-radius: 50%;
+  display: none;
+  margin-right: 5%;
+  min-height: $itemmar * 4;
+  padding-top: $itemmar * 2;
+  text-align: left;
+  width: 5%;
+}
+
+.blender-button {
+  @include button($blender);
+}
+
+.concept-button {
+  @include button($concept);
+}
+
+.sculpt-button {
+  @include button($sculpt);
+}
+
+.unity-button {
+  @include button($unity);
+}

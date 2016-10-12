@@ -1,0 +1,10 @@
+@mixin button($color) {
+  border-bottom: 5px solid $color;
+}
+
+@mixin path($width, $side) {
+  display: inline-block;
+  margin: 10px 0;
+  text-align: $side;
+  width: $width;
+}
