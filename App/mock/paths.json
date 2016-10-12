@@ -5,7 +5,7 @@
     "name": "3D Generalist",
     "focus": "Everything 3D Using Blender",
     "list": [
-      0,1,2
+      0,1,2,28,17,18,19,9,11,10,40,21
     ]
   },
   {
@@ -14,7 +14,7 @@
     "name": "Character Modeling",
     "focus": "Character Modeling in Blender",
     "list": [
-      0,1,41,45,36
+      0,1,13,17,9,43,42,21
     ]
   },
   {
@@ -23,7 +23,7 @@
     "name": "Game Asset/Character Creation",
     "focus": "3D Game Asset & Character Creation with Blender",
     "list": [
-      0,1,2,36,45,46,47
+      0,1,2,17,18,47,19,20,45,46,43,48,21
     ]
   },
   {
@@ -32,7 +32,7 @@
     "name": "Digital Illustration",
     "focus": "Digital Character Illustration",
     "list": [
-      10,41,44
+      3,13,16,26,27,21
     ]
   },
   {
@@ -41,7 +41,7 @@
     "name": "Concept Art",
     "focus": "Digital Concept Art",
     "list": [
-      10,39
+      3,12,27,21
     ]
   },
   {
@@ -50,7 +50,7 @@
     "name": "Traditonal Sculpting",
     "focus": "Traditional Sculpting",
     "list": [
-      16
+      5,25,24,21
     ]
   },
   {
@@ -59,7 +59,7 @@
     "name": "Game Development",
     "focus": "Creating Games with Unity",
     "list": [
-      21,22,23
+      6,7,8,21
     ]
   },
   {
@@ -68,7 +68,7 @@
     "name": "Game Programming",
     "focus": "Programming in C# with Unity",
     "list": [
-      21,22,42
+      6,7,14,21
     ]
   },
   {
@@ -77,7 +77,7 @@
     "name": "Hard-Surface Modeling",
     "focus": "Modeling Hard-Surface Objects",
     "list": [
-      0,1,46
+      0,1,18,36,38,44,45,46,21
     ]
   },
   {
@@ -86,7 +86,7 @@
     "name": "Hard-Surface Animation",
     "focus": "Modeling and Animating Hard-Surface Objects",
     "list": [
-      0,1,46
+      0,1,18,36,44,48,45,46,31,32,34,35,38,39,21
     ]
   },
   {
@@ -95,7 +95,7 @@
     "name": "Digital Sculpting",
     "focus": "Learn all About Digital Sculpting",
     "list": [
-      0,1,38,37,40
+      0,1,11,10,11,45,46,21
     ]
   },
   {
@@ -104,7 +104,7 @@
     "name": "Animation",
     "focus": "Learn all About Animation with Blender",
     "list": [
-      0,1,45,47
+      0,1,17,19,31,34,37,40,41,21
     ]
   },
   {
@@ -113,7 +113,7 @@
     "name": "2D Game Development",
     "focus": "Learn to create 2D games using Unity",
     "list": [
-      21,43
+      6,15,21
     ]
   },
   {
@@ -122,7 +122,7 @@
     "name": "Visual Effects",
     "focus": "Learn all About creating amazing visuals using Blender",
     "list": [
-      1,2,3,4,5,6,7,8,9
+      0,1,2,19,28,29,30,31,32,33,34,37,49,21
     ]
   },
   {
@@ -131,7 +131,7 @@
     "name": "3D Game Development Flow",
     "focus": "Learn the entire process of creating a 3D game starting with modeling",
     "list": [
-      0,1,2,21,22,36
+      0,1,2,6,7,21
     ]
   },
   {
@@ -140,7 +140,7 @@
     "name": "2D Game Development Flow",
     "focus": "Learn the entire process of creating a 2D game starting with pixel art",
     "list": [
-      10,11,21,43
+      3,4,6,15
     ]
   }
 ]

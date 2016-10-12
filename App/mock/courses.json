@@ -3,147 +3,408 @@
     "id": 0,
     "name": "Introduction to Blender",
     "desc": "The best place to start",
-    "flow": true,
-    "url": "https://cgcookie.com/flow/introduction-to-blender/"
+    "isFlow": true,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/isFlow/introduction-to-blender/"
   },
   {
     "id": 1,
     "name": "Modeling in Blender",
     "desc": "Let's learn Modeling!",
-    "flow": true,
-    "url": "https://cgcookie.com/flow/modeling-in-blender/"
+    "isFlow": true,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/isFlow/modeling-in-blender/"
   },
   {
     "id": 2,
     "name": "Introduction to Game Asset Creation",
     "desc": "All about making game assets for games",
-    "flow": true,
-    "url": "https://cgcookie.com/flow/introduction-to-game-asset-creation/"
+    "isFlow": true,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/isFlow/introduction-to-game-asset-creation/"
   },
   {
-    "id": 10,
+    "id": 3,
     "name": "Concept Art Fundamentals",
     "desc": "Learning the basics of 2D digital art",
-    "flow": true,
-    "url": "https://cgcookie.com/flow/introduction-to-digital-art/"
+    "isFlow": true,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/isFlow/introduction-to-digital-art/"
   },
   {
-    "id": 11,
+    "id": 4,
     "name": "Introduction to Traditional Drawing",
     "desc": "",
-    "flow": true,
-    "url": "https://cgcookie.com/flow/introduction-to-traditional-drawing/"
+    "isFlow": true,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/isFlow/introduction-to-traditional-drawing/"
   },
   {
-    "id": 16,
+    "id": 5,
     "name": "Introduction to Clay Sculpting",
     "desc": "Get started with the basics of traditonal sculpting",
-    "flow": true,
+    "isFlow": true,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/sculpting-basics/"
   },
   {
-    "id": 21,
+    "id": 6,
     "name": "Introduction to Unity",
     "desc": "",
-    "flow": true,
+    "isFlow": true,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/unity-basics-introduction-for-beginners/"
   },
   {
-    "id": 22,
+    "id": 7,
     "name": "First Person Shooter",
     "desc": "",
-    "flow": true,
-    "url": "https://cgcookie.com/flow/first-person-shooter/"
+    "isFlow": true,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/isFlow/first-person-shooter/"
   },
   {
-    "id": 23,
+    "id": 8,
     "name": "Developing for Virtual Reality",
     "desc": "",
-    "flow": true,
-    "url": "https://cgcookie.com/flow/developing-for-virtual-reality/"
+    "isFlow": true,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/isFlow/developing-for-virtual-reality/"
   },
   {
-    "id": 24,
-    "name": "",
-    "desc": "",
-    "flow": false,
-    "url": ""
-  },
-  {
-    "id": 36,
+    "id": 9,
     "name": "Shader Forge",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/shader-forge/"
   },
   {
-    "id": 37,
+    "id": 10,
     "name": "Sculpting the Wrangler",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/sculpting-the-wrangler/"
   },
   {
-    "id": 38,
+    "id": 11,
     "name": "Art of Sculpting",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/art-of-sculpting/"
   },
   {
-    "id": 39,
+    "id": 12,
     "name": "Wrangler Concept Art Course",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/wrangler-concept-art-course/"
   },
   {
-    "id": 41,
+    "id": 13,
     "name": "Creating Characters, Where to Start?",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/creating-characters-where-to-start/"
   },
   {
-    "id": 42,
+    "id": 14,
     "name": "C# Bootcamp for Unity",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/c-bootcamp-for-unity/"
   },
   {
-    "id": 43,
+    "id": 15,
     "name": "Creating a 2D Space Shooter",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/creating-a-2d-space-shooter/"
   },
   {
-    "id": 44,
+    "id": 16,
     "name": "Gesture Importance",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/tutorial/gesture-importance/"
   },
   {
-    "id": 45,
+    "id": 17,
     "name": "Introducion to Character Modeling",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/introduction-to-character-modeling/"
   },
   {
-    "id": 46,
+    "id": 18,
     "name": "Introduction to Hard-Surface Modeling",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/introduction-to-hard-surface-modeling/"
   },
   {
-    "id": 47,
+    "id": 19,
     "name": "Character Animation Toolkit",
     "desc": "",
-    "flow": false,
+    "isFlow": false,
+    "isWorkshop": false,
     "url": "https://cgcookie.com/course/character-animation-toolkit/"
+  },
+  {
+    "id": 20,
+    "name": "Modeling Stylized Hair",
+    "desc": "",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/modeling-stylized-hair/"
+  },
+  {
+    "id": 21,
+    "name": "Awesome Workshop!",
+    "desc": "Are you ready to take it to the next level?",
+    "isFlow": false,
+    "isWorkshop": true,
+    "url": "http://www.cgcookieworkshops.com/"
+  },
+  {
+    "id": 22,
+    "name": "",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": ""
+  },
+  {
+    "id": 23,
+    "name": "Green Screen Compositing",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/green-screen-compositing/"
+  },
+  {
+    "id": 24,
+    "name": "Sculpting a Chimera",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/sculpting-a-chimera/"
+  },
+  {
+    "id": 25,
+    "name": "Sculpting an Ear",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/sculpting-an-ear/"
+  },
+  {
+    "id": 26,
+    "name": "Painting a Rain Environment",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/painting-a-rain-environment/"
+  },
+  {
+    "id": 27,
+    "name": "The Importance of Throwaways",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/the-importance-of-throwaways/"
+  },
+  {
+    "id": 28,
+    "name": "Introduction to Compositing",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/introduction-to-compositing-in-blender/"
+  },
+  {
+    "id": 29,
+    "name": "Using the VSE as a Video Editing Tool",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/using-the-vse-as-a-video-editing-tool/"
+  },
+  {
+    "id": 30,
+    "name": "Compositor to VSE",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/compositor-to-vse/"
+  },
+  {
+    "id": 31,
+    "name": "Animating Perpetual Motion with F-Curves",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/animating-perpetual-motion-with-f-curves/"
+  },
+  {
+    "id": 32,
+    "name": "Adding Procedural Camera Shake",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/adding-procedural-camera-shake/"
+  },
+  {
+    "id": 33,
+    "name": "Creating the Ken Burns Effect",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/creating-the-ken-burns-effect/"
+  },
+  {
+    "id": 34,
+    "name": "Switching Between Multiple Cameras",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/tip-switching-between-multiple-cameras/"
+  },
+  {
+    "id": 35,
+    "name": "Rigging Train Wheels",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/rigging-train-wheels-within-blender/"
+  },
+  {
+    "id": 36,
+    "name": "Modeling a Motorcycle",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/modeling-a-motorcycle/"
+  },
+  {
+    "id": 37,
+    "name": "How to Create a Laser Beam",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/how-to-create-a-laser-beam-in-blender/"
+  },
+  {
+    "id": 38,
+    "name": "Modeling a Post Apocalyptic Vehicle",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/modeling-a-post-apocalyptic-vehicle/"
+  },
+  {
+    "id": 39,
+    "name": "Rigging Vehicles with Automatic Suspension",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/rigging-vehicles-with-automatic-suspension/"
+  },
+  {
+    "id": 40,
+    "name": "Short Film Character Production",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/short-film-character-production/"
+  },
+  {
+    "id": 41,
+    "name": "Parkour Character Animation",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/parkour-character-animation-in-blender/"
+  },
+  {
+    "id": 42,
+    "name": "Texturing & Shading a Stylistic Character",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/shading-fundamentals-in-blender-render/"
+  },
+  {
+    "id": 43,
+    "name": "Using Cycles' Hair BSDF Node",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/using-cycles-hair-bsdf-node/"
+  },
+  {
+    "id": 44,
+    "name": "Modeling Hard Surface Panels on Curved Surfaces",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/modeling-hard-surface-panels-on-curved-surfaces/"
+  },
+  {
+    "id": 45,
+    "name": "Modeling a Sci-Fi Helmet",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/modeling-a-sci-fi-helmet/"
+  },
+  {
+    "id": 46,
+    "name": "Shading a Sci-Fi Helmet",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/shading-the-sci-fi-helmet/"
+  },
+  {
+    "id": 47,
+    "name": "Realtime GLSL Lighting and Shading",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/tutorial/realtime-glsl-lighting-and-shading/"
+  },
+  {
+    "id": 48,
+    "name": "Modeling and Animating a Sci-Fi Hatch",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/modeling-and-animating-a-sci-fi-hatch/"
+  },
+  {
+    "id": 49,
+    "name": "Compositing a 3D Monster into a Live Action Scene",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": "https://cgcookie.com/course/compositing-a-3d-monster-into-a-live-action-scene/"
+  },
+  {
+    "id": 50,
+    "name": "",
+    "desc": "Description",
+    "isFlow": false,
+    "isWorkshop": false,
+    "url": ""
   }
 ]
