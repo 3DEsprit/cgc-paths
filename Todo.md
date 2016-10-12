@@ -6,6 +6,7 @@
 * have header follow
 * flow tags
 * Add Sass compile to build process
+* Fix Sass with browser reset 
 
 ## Later
 
