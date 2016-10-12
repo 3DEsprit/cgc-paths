@@ -10,6 +10,8 @@ const ListItem = ({course}) => {
         <li className="listitem">
           <div className="courseitem">
             <p className="coursename">{course.name}</p>
+            {course.isFlow ? <p className="listflow">Learning Flow</p>
+              : <p className="listcourse">Course</p>}
             <p className="coursedesc">Description: {course.desc}</p>
           </div>
         </li>

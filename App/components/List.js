@@ -2,11 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import ListItem from './visual/ListItem';
 
 export default class List extends Component {
-  static propTypes = {
-    params: {
-      path_id: PropTypes.number
-    }
-  }
+  
 
   componentDidMount() {
     document.title = this.props.route.pathList[this.props.params.path_id].name;
@@ -29,5 +25,11 @@ export default class List extends Component {
         </ul>
       </div>
     )
+  }
+}
+
+List.propTypes = {
+  params: {
+    path_id: PropTypes.number
   }
 }
