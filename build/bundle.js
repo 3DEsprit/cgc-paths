@@ -131,7 +131,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Lato:400,400i,700);", ""]);
 
 	// module
-	exports.push([module.id, "* {\n  font-family: 'Lato', sans-serif;\n  box-sizing: border-box;\n}\n\np {\n  margin: 0 0;\n}\n\nbody {\n  color: #e7e7e7;\n  background-color: #3D4247;\n  margin: 0;\n  padding-top: 100px;\n  text-align: center;\n}\n\nh1 {\n  color: #e7e7e7;\n  text-align: center;\n  padding: 50px 20px;\n}\n\nul {\n  text-align: center;\n}\n\n.header {\n  position: fixed;\n  width: 100%;\n  top: 0;\n  z-index: 1000;\n  text-align: center;\n  font-weight: bold;\n  color: #e7e7e7;\n  background-color: rgba(34, 38, 43, 0.7);\n  padding-top: 15px;\n  padding-bottom: 30px;\n}\n\n.footer {\n  padding-bottom: 50px;\n}\n\n.start {\n  color: #e7e7e7;\n  text-align: center;\n  padding: 50px 20px;\n}\n\n/* Paths */\n\n.pathitem, .listitem {\n  display: inline-block;\n  width: 90%;\n  height: 100px;\n  background-color: #23272c;\n  transition: transform 1s, background 1.5s;\n  text-align: center;\n  list-style: none;\n  padding: 10px 20px;\n  margin-bottom: 20px;\n  border-radius: 15px;\n  border: 5px solid #23272c;\n  box-shadow: inset 2px 2px black;\n}\n\n.pathname {\n  display: inline-block;\n  width: 80%;\n  text-align: left;\n  font-size: 1.2em;\n  margin-bottom: 10px;\n}\n\n.pathfocus {\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n}\n\n.pathflow {\n  display: inline-block;\n  width: 20%;\n  text-align: right;\n}\n\n.pathcourses {\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n}\n\n\n/* Course List */\n\n.coursename {\n  display: inline-block;\n  width: 80%;\n  text-align: left;\n  font-size: 1.2em;\n  margin-bottom: 10px;\n}\n\n.coursedesc {\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n}\n\n.listshop {\n  display: inline-block;\n  width: 20%;\n  font-size: 0.8em;\n  text-align: right;\n  color: #a476e6;\n}\n\n.listflow {\n  display: inline-block;\n  width: 20%;\n  font-size: 0.8em;\n  text-align: right;\n}\n\n.listcourse {\n  display: inline-block;\n  width: 20%;\n  font-size: 0.8em;\n  text-align: right;\n  color: #AFAFDF;\n}\n\n.listcontainer {\n  margin: 20px 20px;\n  vertical-align: center;\n}\n\n.listitem:hover {\n  transform: scale(1.02,1.02);\n  background-color: #23282d;\n}\n\n.pathitem:hover {\n  transform: scale(1.02,1.02);\n  background-color: #23282d;\n}\n\n.coursewell {\n  display: none;\n  background-color: #23272c;\n  border-radius: 50% 50%;\n  text-align: left;\n  min-height: 40px;\n  width: 5%;\n  margin-right: 5%;\n  padding-top: 20px;\n}\n\n.courseitem {\n\n  text-align: left;\n}\n\n/* Links */\n\na {\n  color: #e7e7e7;\n}\n\na:hover {\n  color: #e7e7e7;\n}\n\na:active {\n  background-color: #282d33;\n}\n\n/* Buttons */\n\n.button {\n  background-color: #23272c;\n  border: none;\n  color: #e7e7e7;\n  padding: 15px 32px;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 16px;\n  margin-left: 5px;\n  width: 150px;\n}\n\n.button .active {\n  background-color: #282d33;\n}\n\n.button:focus {\n  outline: 0px;\n}\n\n.button:hover {\n  background-color: #4f565f;\n}\n\n.button:active {\n  background-color: #4f565f;\n}\n\n.blender-button {\n  border-bottom: 5px solid #117ab0;\n}\n\n.concept-button {\n  border-bottom: 5px solid #62cd17;\n}\n\n.sculpt-button {\n  border-bottom: 5px solid #e96252;\n}\n\n.unity-button {\n  border-bottom: 5px solid #a533a6;\n}\n\n/* Media Queries */\n\n@media (min-width: 1159px) {\n  .listitem, .pathitem {\n    max-width: 800px;\n  }\n\n  .coursewell {\n    max-width: 40px;\n    max-height: 40px;\n  }\n}\n\n@media (max-width: 649px) {\n  .listitem, .pathitem {\n    max-width: 600px;\n  }\n  .listitem, .pathitem, .pathflow, .pathfocus, .pathname, .coursename, .courseflow, .coursedesc {\n    text-align: center;\n    width: 100%;\n    font-size: 1em;\n  }\n  .listcontainer {\n    height: 250px;\n  }\n  .coursewell {\n    display: none;\n  }\n}\n", ""]);
+	exports.push([module.id, "* {\n  box-sizing: border-box;\n  font-family: 'Lato', sans-serif; }\n\nbody {\n  background-color: #3d4247;\n  color: #e7e7e7;\n  margin: 0;\n  padding: 0;\n  text-align: center; }\n  body menu,\n  body ul,\n  body ol {\n    padding: 0; }\n\n.start h1 {\n  color: #e7e7e7;\n  padding: 50px 20px;\n  text-align: center; }\n\n.header {\n  background-color: rgba(34, 38, 43, 0.5);\n  color: #e7e7e7;\n  font-weight: bold;\n  padding-bottom: 30px;\n  padding-top: 15px;\n  text-align: center; }\n\n.button {\n  background-color: #23272c;\n  border: 0;\n  color: #e7e7e7;\n  display: inline-block;\n  font-size: 16px;\n  margin-left: 5px;\n  padding: 16px 32px;\n  text-align: center;\n  text-decoration: none;\n  transition: background-color .7s;\n  width: 150px; }\n  .button.active {\n    background-color: #282d33; }\n  .button:focus {\n    outline: 0; }\n  .button:hover, .button:active {\n    background-color: #4f565f; }\n\n.listcontainer .listitem,\n.listcontainer .pathitem {\n  display: inline-block;\n  margin: 10px 0;\n  text-align: center;\n  width: 90%;\n  background-color: #23272c;\n  border: 5px solid #23272c;\n  border-radius: 15px;\n  box-shadow: inset 2px 2px #000;\n  height: 100px;\n  list-style: none;\n  margin-bottom: 20px;\n  margin-top: 0;\n  padding: 0 20px;\n  transition: background-color 1.5s .5s ease-in, transform 2s; }\n  .listcontainer .listitem:hover,\n  .listcontainer .pathitem:hover {\n    background-color: #2e343a;\n    transform: scale(1.02, 1.02); }\n.listcontainer a {\n  color: #e7e7e7; }\n.listcontainer:hover {\n  color: white; }\n\n.courseitem {\n  text-align: left; }\n\n.listtype,\n.listshop,\n.listcourse {\n  display: inline-block;\n  margin: 10px 0;\n  text-align: right;\n  width: 20%; }\n\n.listshop {\n  color: #a476e6; }\n\n.listcourse {\n  color: #afafdf; }\n\n.listdesc {\n  display: inline-block;\n  margin: 10px 0;\n  text-align: left;\n  width: 100%; }\n\n.pathcourses {\n  display: inline-block;\n  margin: 10px 0;\n  text-align: left;\n  width: 100%; }\n\n.listname {\n  display: inline-block;\n  margin: 10px 0;\n  text-align: left;\n  width: 80%;\n  font-size: 1.2em; }\n\n.listfocus {\n  display: inline-block;\n  margin: 10px 0;\n  text-align: left;\n  width: 100%; }\n\n.coursewell {\n  background-color: #23272c;\n  border-radius: 50%;\n  display: none;\n  margin-right: 5%;\n  min-height: 40px;\n  padding-top: 20px;\n  text-align: left;\n  width: 5%; }\n\n.blender-button {\n  border-bottom: 5px solid #117ab0; }\n\n.concept-button {\n  border-bottom: 5px solid #62cd17; }\n\n.sculpt-button {\n  border-bottom: 5px solid #e96252; }\n\n.unity-button {\n  border-bottom: 5px solid #a533a6; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
 
 	// exports
 
@@ -27822,17 +27822,17 @@
 	          { className: 'courseitem' },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'pathname' },
+	            { className: 'listname' },
 	            Item.name
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'pathflow' },
+	            { className: 'listtype' },
 	            Item.flow
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'pathfocus' },
+	            { className: 'listdesc' },
 	            Item.focus
 	          )
 	        )
@@ -27961,7 +27961,7 @@
 	          { className: "courseitem" },
 	          _react2.default.createElement(
 	            "p",
-	            { className: "coursename" },
+	            { className: "listname" },
 	            course.name
 	          ),
 	          course.isWorkshop ? _react2.default.createElement(
@@ -27970,7 +27970,7 @@
 	            "Pro Workshop"
 	          ) : course.isFlow ? _react2.default.createElement(
 	            "p",
-	            { className: "listflow" },
+	            { className: "listtype" },
 	            "Learning Flow"
 	          ) : _react2.default.createElement(
 	            "p",
@@ -27979,7 +27979,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "coursedesc" },
+	            { className: "listdesc" },
 	            "Description: ",
 	            course.desc
 	          )
