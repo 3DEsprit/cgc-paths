@@ -9,11 +9,11 @@ const ListItem = ({course}) => {
       <a href={course.url} target={course.name}>
         <li className="listitem">
           <div className="courseitem">
-            <p className="coursename">{course.name}</p>
+            <p className="listname">{course.name}</p>
             {course.isWorkshop ? <p className="listshop">Pro Workshop</p> :
-              course.isFlow ? <p className="listflow">Learning Flow</p>
+              course.isFlow ? <p className="listtype">Learning Flow</p>
               : <p className="listcourse">Course</p>}
-            <p className="coursedesc">Description: {course.desc}</p>
+            <p className="listdesc">Description: {course.desc}</p>
           </div>
         </li>
       </a>

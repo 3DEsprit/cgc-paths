@@ -10,9 +10,9 @@ const PathItem = ({Item}) => {
       <LinkWrap to={'/courses/' + Item.id}>
       <li className="pathitem">
         <div className="courseitem">
-          <p className="pathname">{Item.name}</p>
-          <p className="pathflow">{Item.flow}</p>
-          <p className="pathfocus">{Item.focus}</p>
+          <p className="listname">{Item.name}</p>
+          <p className="listtype">{Item.flow}</p>
+          <p className="listdesc">{Item.focus}</p>
         </div>
       </li>
       </LinkWrap>
