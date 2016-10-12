@@ -1,3 +1,7 @@
+// import
+@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700';
+
+// colors
 $foreground: #e7e7e7;
 $backbase: #3d4247;
 $items: #23272c;
@@ -5,8 +9,12 @@ $active: #282d33;
 $button: #4f565f;
 $black: #000;
 $header: rgba(34, 38, 43, .5);
+$course: #afafdf;
+$workshop: #a476e6;
+
+// padding and margins
 $headpad: 15px;
-$itemmar: 20px;
+$itemmar: 10px;
 $itemheight: 100px;
 
 // path colors
@@ -21,6 +29,7 @@ $unity: #a533a6;
 
 @mixin path($width, $side) {
   display: inline-block;
+  margin: 10px 0;
   text-align: $side;
   width: $width;
 }
@@ -35,7 +44,14 @@ body {
   background-color: $backbase;
   color: $foreground;
   margin: 0;
+  padding: 0;
   text-align: center;
+
+  menu,
+  ul,
+  ol {
+    padding: 0;
+  }
 }
 
 .start {
@@ -65,9 +81,10 @@ body {
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
+  transition: background-color .7s;
   width: 150px;
 
-  & .active {
+  &.active {
     background-color: $active;
   }
 
@@ -75,20 +92,16 @@ body {
     outline: 0;
   }
 
-  &:hover &:active {
+  &:hover,
+  &:active {
     background-color: $button;
-  }
-
-  &.button,
-  .active {
-    background-color: $active;
   }
 }
 
 .listcontainer {
-  margin: $itemmar;
+  // margin: $itemmar;
 
-  & .listitem,
+  .listitem,
   .pathitem {
     @include path(90%, center);
     background-color: $items;
@@ -97,24 +110,15 @@ body {
     box-shadow: inset 2px 2px $black;
     height: $itemheight;
     list-style: none;
-    margin-bottom: $itemmar;
-    padding: $itemmar / 2 $itemmar;
-  }
+    margin-bottom: $itemmar * 2;
+    margin-top: 0;
+    padding: 0 $itemmar * 2;
+    transition: background-color 1.5s .5s ease-in, transform 2s;
 
-  & .pathname {
-    @include path(left, 80%);
-  }
-
-  & .pathfocus {
-    @include path(left, 100%);
-  }
-
-  & .pathflow {
-    @include path(right, 20%);
-  }
-
-  & .pathcourses {
-    @include path(left, 100%);
+    &:hover {
+      background-color: lighten($items, 5%);
+      transform: scale(1.02, 1.02);
+    }
   }
 
   a {
@@ -122,11 +126,55 @@ body {
   }
 
   &:hover {
-    color: $foreground;
+    color: lighten($foreground, 10%);
   }
-
 }
 
+.courseitem {
+  text-align: left;
+}
+
+.listtype,
+.listshop,
+.listcourse {
+  @include path(20%, right);
+}
+
+.listshop {
+  color: $workshop;
+}
+
+.listcourse {
+  color: $course;
+}
+
+.listdesc {
+  @include path(100%, left);
+}
+
+.pathcourses {
+  @include path(100%, left);
+}
+
+.listname {
+  @include path(80%, left);
+  font-size: 1.2em;
+}
+
+.listfocus {
+  @include path(100%, left);
+}
+
+.coursewell {
+  background-color: $items;
+  border-radius: 50%;
+  display: none;
+  margin-right: 5%;
+  min-height: $itemmar * 4;
+  padding-top: $itemmar * 2;
+  text-align: left;
+  width: 5%;
+}
 
 .blender-button {
   @include button($blender);

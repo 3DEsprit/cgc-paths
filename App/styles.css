@@ -1,255 +1,138 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700';
-
+@import "https://fonts.googleapis.com/css?family=Lato:400,400i,700";
 * {
-  font-family: 'Lato', sans-serif;
   box-sizing: border-box;
-}
-
-p {
-  margin: 0 0;
-}
+  font-family: 'Lato', sans-serif; }
 
 body {
+  background-color: #3d4247;
   color: #e7e7e7;
-  background-color: #3D4247;
   margin: 0;
-  padding-top: 100px;
-  text-align: center;
-}
+  padding: 0;
+  text-align: center; }
+  body menu,
+  body ul,
+  body ol {
+    padding: 0; }
 
-h1 {
+.start h1 {
   color: #e7e7e7;
-  text-align: center;
   padding: 50px 20px;
-}
-
-ul {
-  text-align: center;
-}
+  text-align: center; }
 
 .header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  text-align: center;
+  background-color: rgba(34, 38, 43, 0.5);
+  color: #e7e7e7;
   font-weight: bold;
-  color: #e7e7e7;
-  background-color: rgba(34, 38, 43, 0.7);
-  padding-top: 15px;
   padding-bottom: 30px;
-}
-
-.footer {
-  padding-bottom: 50px;
-}
-
-.start {
-  color: #e7e7e7;
-  text-align: center;
-  padding: 50px 20px;
-}
-
-/* Paths */
-
-.pathitem, .listitem {
-  display: inline-block;
-  width: 90%;
-  height: 100px;
-  background-color: #23272c;
-  transition: transform 1s, background 1.5s;
-  text-align: center;
-  list-style: none;
-  padding: 10px 20px;
-  margin-bottom: 20px;
-  border-radius: 15px;
-  border: 5px solid #23272c;
-  box-shadow: inset 2px 2px black;
-}
-
-.pathname {
-  display: inline-block;
-  width: 80%;
-  text-align: left;
-  font-size: 1.2em;
-  margin-bottom: 10px;
-}
-
-.pathfocus {
-  display: inline-block;
-  width: 100%;
-  text-align: left;
-}
-
-.pathflow {
-  display: inline-block;
-  width: 20%;
-  text-align: right;
-}
-
-.pathcourses {
-  display: inline-block;
-  width: 100%;
-  text-align: left;
-}
-
-
-/* Course List */
-
-.coursename {
-  display: inline-block;
-  width: 80%;
-  text-align: left;
-  font-size: 1.2em;
-  margin-bottom: 10px;
-}
-
-.coursedesc {
-  display: inline-block;
-  width: 100%;
-  text-align: left;
-}
-
-.listshop {
-  display: inline-block;
-  width: 20%;
-  font-size: 0.8em;
-  text-align: right;
-  color: #a476e6;
-}
-
-.listflow {
-  display: inline-block;
-  width: 20%;
-  font-size: 0.8em;
-  text-align: right;
-}
-
-.listcourse {
-  display: inline-block;
-  width: 20%;
-  font-size: 0.8em;
-  text-align: right;
-  color: #AFAFDF;
-}
-
-.listcontainer {
-  margin: 20px 20px;
-  vertical-align: center;
-}
-
-.listitem:hover {
-  transform: scale(1.02,1.02);
-  background-color: #23282d;
-}
-
-.pathitem:hover {
-  transform: scale(1.02,1.02);
-  background-color: #23282d;
-}
-
-.coursewell {
-  display: none;
-  background-color: #23272c;
-  border-radius: 50% 50%;
-  text-align: left;
-  min-height: 40px;
-  width: 5%;
-  margin-right: 5%;
-  padding-top: 20px;
-}
-
-.courseitem {
-
-  text-align: left;
-}
-
-/* Links */
-
-a {
-  color: #e7e7e7;
-}
-
-a:hover {
-  color: #e7e7e7;
-}
-
-a:active {
-  background-color: #282d33;
-}
-
-/* Buttons */
+  padding-top: 15px;
+  text-align: center; }
 
 .button {
   background-color: #23272c;
-  border: none;
+  border: 0;
   color: #e7e7e7;
-  padding: 15px 32px;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin-left: 5px;
-  width: 150px;
-}
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .7s;
+  width: 150px; }
+  .button.active {
+    background-color: #282d33; }
+  .button:focus {
+    outline: 0; }
+  .button:hover, .button:active {
+    background-color: #4f565f; }
 
-.button .active {
-  background-color: #282d33;
-}
+.listcontainer .listitem,
+.listcontainer .pathitem {
+  display: inline-block;
+  margin: 10px 0;
+  text-align: center;
+  width: 90%;
+  background-color: #23272c;
+  border: 5px solid #23272c;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px #000;
+  height: 100px;
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding: 0 20px;
+  transition: background-color 1.5s .5s ease-in, transform 2s; }
+  .listcontainer .listitem:hover,
+  .listcontainer .pathitem:hover {
+    background-color: #2e343a;
+    transform: scale(1.02, 1.02); }
+.listcontainer a {
+  color: #e7e7e7; }
+.listcontainer:hover {
+  color: white; }
 
-.button:focus {
-  outline: 0px;
-}
+.courseitem {
+  text-align: left; }
 
-.button:hover {
-  background-color: #4f565f;
-}
+.listtype,
+.listshop,
+.listcourse {
+  display: inline-block;
+  margin: 10px 0;
+  text-align: right;
+  width: 20%; }
 
-.button:active {
-  background-color: #4f565f;
-}
+.listshop {
+  color: #a476e6; }
+
+.listcourse {
+  color: #afafdf; }
+
+.listdesc {
+  display: inline-block;
+  margin: 10px 0;
+  text-align: left;
+  width: 100%; }
+
+.pathcourses {
+  display: inline-block;
+  margin: 10px 0;
+  text-align: left;
+  width: 100%; }
+
+.listname {
+  display: inline-block;
+  margin: 10px 0;
+  text-align: left;
+  width: 80%;
+  font-size: 1.2em; }
+
+.listfocus {
+  display: inline-block;
+  margin: 10px 0;
+  text-align: left;
+  width: 100%; }
+
+.coursewell {
+  background-color: #23272c;
+  border-radius: 50%;
+  display: none;
+  margin-right: 5%;
+  min-height: 40px;
+  padding-top: 20px;
+  text-align: left;
+  width: 5%; }
 
 .blender-button {
-  border-bottom: 5px solid #117ab0;
-}
+  border-bottom: 5px solid #117ab0; }
 
 .concept-button {
-  border-bottom: 5px solid #62cd17;
-}
+  border-bottom: 5px solid #62cd17; }
 
 .sculpt-button {
-  border-bottom: 5px solid #e96252;
-}
+  border-bottom: 5px solid #e96252; }
 
 .unity-button {
-  border-bottom: 5px solid #a533a6;
-}
+  border-bottom: 5px solid #a533a6; }
 
-/* Media Queries */
-
-@media (min-width: 1159px) {
-  .listitem, .pathitem {
-    max-width: 800px;
-  }
-
-  .coursewell {
-    max-width: 40px;
-    max-height: 40px;
-  }
-}
-
-@media (max-width: 649px) {
-  .listitem, .pathitem {
-    max-width: 600px;
-  }
-  .listitem, .pathitem, .pathflow, .pathfocus, .pathname, .coursename, .courseflow, .coursedesc {
-    text-align: center;
-    width: 100%;
-    font-size: 1em;
-  }
-  .listcontainer {
-    height: 250px;
-  }
-  .coursewell {
-    display: none;
-  }
-}
+/*# sourceMappingURL=styles.css.map */
