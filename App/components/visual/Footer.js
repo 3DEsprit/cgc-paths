@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className="footer">
-      Build 0.1.5
+      Build 0.1.6
     </div>
   )
 }
