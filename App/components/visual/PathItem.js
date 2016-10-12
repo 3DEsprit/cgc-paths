@@ -1,4 +1,4 @@
-&nbsp;import React, { PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import LinkWrap from './LinkWrap';
 
 const PathItem = ({Item}) => {
