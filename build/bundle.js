@@ -131,7 +131,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Lato:400,400i,700);", ""]);
 
 	// module
-	exports.push([module.id, "* {\n  font-family: 'Lato', sans-serif;\n  box-sizing: border-box;\n}\n\np {\n  margin: 0 0;\n}\n\nbody {\n  color: #e7e7e7;\n  background-color: #3D4247;\n}\n\nh1 {\n  color: #e7e7e7;\n  text-align: center;\n  padding: 50px 20px;\n}\n\nul {\n  text-align: center;\n}\n\n#header {\n  text-align: center;\n  font-weight: bold;\n  color: #e7e7e7;\n  background-color: rgba(34, 38, 43, 0.5);\n  padding-top: 15px;\n  padding-bottom: 30px;\n}\n\n.start {\n  color: #e7e7e7;\n  text-align: center;\n  padding: 50px 20px;\n}\n\n/* Paths */\n\n.pathItem, .listItem {\n  display: inline-block;\n  width: 90%;\n  height: 100px;\n  background-color: #23272c;\n  text-align: center;\n  list-style: none;\n  padding: 10px 20px;\n  margin-bottom: 20px;\n  border-radius: 15px;\n  border: 5px solid #23272c;\n  box-shadow: inset 2px 2px black;\n}\n\n.pathName {\n  display: inline-block;\n  width: 80%;\n  text-align: left;\n  font-size: 1.5em;\n  margin-bottom: 10px;\n}\n\n.pathFocus {\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n}\n\n.pathFlow {\n  display: inline-block;\n  width: 20%;\n  text-align: right;\n}\n\n.pathCourses {\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n}\n\n\n/* Course List */\n\n.courseName {\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  font-size: 1.5em;\n  margin-bottom: 10px;\n}\n\n.courseDesc {\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n}\n\n\n.listContainer {\n  margin: 20px 20px;\n  vertical-align: center;\n}\n\n.listItem:hover {\n  background-color: #282d33;\n}\n\n.courseWell {\n  display: inline-block;\n  background-color: #23272c;\n  border-radius: 50% 50%;\n  text-align: left;\n  min-height: 40px;\n  width: 5%;\n  margin-right: 5%;\n  padding-top: 20px;\n}\n\n.courseItem {\n\n  text-align: left;\n}\n\n/* Links */\n\na {\n  color: #e7e7e7;\n}\n\na:hover {\n  color: #e7e7e7;\n}\n\na:active {\n  background-color: #282d33;\n}\n\n/* Buttons */\n\n.button {\n  background-color: #23272c;\n  border: none;\n  color: #e7e7e7;\n  padding: 15px 32px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 16px;\n  margin-left: 5px;\n  width: 150px;\n}\n\n.button .active {\n  background-color: #282d33;\n}\n\n.button:focus {\n  outline: 0px;\n}\n\n.button:hover {\n  background-color: #4f565f;\n}\n\n.button:active {\n  background-color: #4f565f;\n}\n\n.blenderButton {\n  border-bottom: 5px solid #117ab0;\n}\n\n.conceptButton {\n  border-bottom: 5px solid #62cd17;\n}\n\n.sculptButton {\n  border-bottom: 5px solid #e96252;\n}\n\n.unityButton {\n  border-bottom: 5px solid #a533a6;\n}\n\n/* Media Queries */\n\n@media (min-width: 1159px) {\n  .listItem, .pathItem {\n    max-width: 800px;\n  }\n  .courseWell {\n    max-width: 40px;\n    max-height: 40px;\n  }\n}\n\n@media (min-width: 649px) {\n  .listItem, .pathItem {\n    max-width: 600px;\n  }\n  .courseWell {\n    max-width: 40px;\n    max-height: 40px;\n  }\n}\n", ""]);
+	exports.push([module.id, "* {\n  font-family: 'Lato', sans-serif;\n  box-sizing: border-box;\n}\n\np {\n  margin: 0 0;\n}\n\nbody {\n  color: #e7e7e7;\n  background-color: #3D4247;\n  margin: 0;\n  text-align: center;\n}\n\nh1 {\n  color: #e7e7e7;\n  text-align: center;\n  padding: 50px 20px;\n}\n\nul {\n  text-align: center;\n}\n\n.header {\n  text-align: center;\n  font-weight: bold;\n  color: #e7e7e7;\n  background-color: rgba(34, 38, 43, 0.5);\n  padding-top: 15px;\n  padding-bottom: 30px;\n}\n\n.footer {\n  padding-bottom: 50px;\n}\n\n.start {\n  color: #e7e7e7;\n  text-align: center;\n  padding: 50px 20px;\n}\n\n/* Paths */\n\n.pathitem, .listitem {\n  display: inline-block;\n  width: 90%;\n  height: 100px;\n  background-color: #23272c;\n  transition: transform 1s, background 1.5s;\n  text-align: center;\n  list-style: none;\n  padding: 10px 20px;\n  margin-bottom: 20px;\n  border-radius: 15px;\n  border: 5px solid #23272c;\n  box-shadow: inset 2px 2px black;\n}\n\n.pathname {\n  display: inline-block;\n  width: 80%;\n  text-align: left;\n  font-size: 1.2em;\n  margin-bottom: 10px;\n}\n\n.pathfocus {\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n}\n\n.pathflow {\n  display: inline-block;\n  width: 20%;\n  text-align: right;\n}\n\n.pathcourses {\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n}\n\n\n/* Course List */\n\n.coursename {\n  display: inline-block;\n  width: 80%;\n  text-align: left;\n  font-size: 1.2em;\n  margin-bottom: 10px;\n}\n\n.coursedesc {\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n}\n\n.listshop {\n  display: inline-block;\n  width: 20%;\n  font-size: 0.8em;\n  text-align: right;\n  color: #a476e6;\n}\n\n.listflow {\n  display: inline-block;\n  width: 20%;\n  font-size: 0.8em;\n  text-align: right;\n}\n\n.listcourse {\n  display: inline-block;\n  width: 20%;\n  font-size: 0.8em;\n  text-align: right;\n  color: #AFAFDF;\n}\n\n.listcontainer {\n  margin: 20px 20px;\n  vertical-align: center;\n}\n\n.listitem:hover {\n  transform: scale(1.02,1.02);\n  background-color: #23282d;\n}\n\n.pathitem:hover {\n  transform: scale(1.02,1.02);\n  background-color: #23282d;\n}\n\n.coursewell {\n  display: none;\n  background-color: #23272c;\n  border-radius: 50% 50%;\n  text-align: left;\n  min-height: 40px;\n  width: 5%;\n  margin-right: 5%;\n  padding-top: 20px;\n}\n\n.courseitem {\n\n  text-align: left;\n}\n\n/* Links */\n\na {\n  color: #e7e7e7;\n}\n\na:hover {\n  color: #e7e7e7;\n}\n\na:active {\n  background-color: #282d33;\n}\n\n/* Buttons */\n\n.button {\n  background-color: #23272c;\n  border: none;\n  color: #e7e7e7;\n  padding: 15px 32px;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 16px;\n  margin-left: 5px;\n  width: 150px;\n}\n\n.button .active {\n  background-color: #282d33;\n}\n\n.button:focus {\n  outline: 0px;\n}\n\n.button:hover {\n  background-color: #4f565f;\n}\n\n.button:active {\n  background-color: #4f565f;\n}\n\n.blender-button {\n  border-bottom: 5px solid #117ab0;\n}\n\n.concept-button {\n  border-bottom: 5px solid #62cd17;\n}\n\n.sculpt-button {\n  border-bottom: 5px solid #e96252;\n}\n\n.unity-button {\n  border-bottom: 5px solid #a533a6;\n}\n\n/* Media Queries */\n\n@media (min-width: 1159px) {\n  .listitem, .pathitem {\n    max-width: 800px;\n  }\n\n  .coursewell {\n    max-width: 40px;\n    max-height: 40px;\n  }\n}\n\n@media (max-width: 649px) {\n  .listitem, .pathitem {\n    max-width: 600px;\n  }\n  .listitem, .pathitem, .pathflow, .pathfocus, .pathname, .coursename, .courseflow, .coursedesc {\n    text-align: center;\n    width: 100%;\n    font-size: 1em;\n  }\n  .listcontainer {\n    height: 250px;\n  }\n  .coursewell {\n    display: none;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -27549,14 +27549,14 @@
 	var Header = function Header(props) {
 	  return _react2.default.createElement(
 	    'div',
-	    { id: 'header' },
+	    { className: 'header' },
 	    _react2.default.createElement(
 	      _LinkWrap2.default,
 	      { to: '/paths/Blender' },
 	      _react2.default.createElement(
 	        'button',
 	        {
-	          className: 'blenderButton button'
+	          className: 'blender-button button'
 	        },
 	        'Blender'
 	      )
@@ -27567,7 +27567,7 @@
 	      _react2.default.createElement(
 	        'button',
 	        {
-	          className: 'conceptButton button'
+	          className: 'concept-button button'
 	        },
 	        'Concept'
 	      )
@@ -27578,7 +27578,7 @@
 	      _react2.default.createElement(
 	        'button',
 	        {
-	          className: 'sculptButton button'
+	          className: 'sculpt-button button'
 	        },
 	        'Sculpt'
 	      )
@@ -27589,7 +27589,7 @@
 	      _react2.default.createElement(
 	        'button',
 	        {
-	          className: 'unityButton button'
+	          className: 'unity-button button'
 	        },
 	        'Unity'
 	      )
@@ -27629,7 +27629,7 @@
 /* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -27642,7 +27642,11 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var Footer = function Footer() {
-	  return _react2.default.createElement('div', null);
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "footer" },
+	    "Build 1.5"
+	  );
 	};
 
 	exports.default = Footer;
@@ -27756,7 +27760,7 @@
 	          null,
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'listContainer' },
+	            { className: 'listcontainer' },
 	            pathList.map(function (path) {
 	              if (path.flow == flow) {
 	                return _react2.default.createElement(_PathItem2.default, {
@@ -27804,7 +27808,7 @@
 	    { className: 'wrapper' },
 	    _react2.default.createElement(
 	      'div',
-	      { className: 'courseWell' },
+	      { className: 'coursewell' },
 	      'Dot'
 	    ),
 	    _react2.default.createElement(
@@ -27812,23 +27816,23 @@
 	      { to: '/courses/' + Item.id },
 	      _react2.default.createElement(
 	        'li',
-	        { className: 'pathItem' },
+	        { className: 'pathitem' },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'courseItem' },
+	          { className: 'courseitem' },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'pathName' },
+	            { className: 'pathname' },
 	            Item.name
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'pathFlow' },
+	            { className: 'pathflow' },
 	            Item.flow
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'pathFocus' },
+	            { className: 'pathfocus' },
 	            Item.focus
 	          )
 	        )
@@ -27894,7 +27898,7 @@
 	      var current = pathList[pathId].list;
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'listContainer' },
+	        { className: 'listcontainer' },
 	        _react2.default.createElement(
 	          'ul',
 	          null,
@@ -27910,12 +27914,14 @@
 	  return List;
 	}(_react.Component);
 
+	exports.default = List;
+
+
 	List.propTypes = {
 	  params: {
 	    path_id: _react.PropTypes.number
 	  }
 	};
-	exports.default = List;
 
 /***/ },
 /* 247 */
@@ -27941,7 +27947,7 @@
 	    { className: "wrapper" },
 	    _react2.default.createElement(
 	      "div",
-	      { className: "courseWell" },
+	      { className: "coursewell" },
 	      "Dot"
 	    ),
 	    _react2.default.createElement(
@@ -27949,18 +27955,31 @@
 	      { href: course.url, target: course.name },
 	      _react2.default.createElement(
 	        "li",
-	        { className: "listItem" },
+	        { className: "listitem" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "courseItem" },
+	          { className: "courseitem" },
 	          _react2.default.createElement(
 	            "p",
-	            { className: "courseName" },
+	            { className: "coursename" },
 	            course.name
+	          ),
+	          course.isWorkshop ? _react2.default.createElement(
+	            "p",
+	            { className: "listshop" },
+	            "Pro Workshop"
+	          ) : course.isFlow ? _react2.default.createElement(
+	            "p",
+	            { className: "listflow" },
+	            "Learning Flow"
+	          ) : _react2.default.createElement(
+	            "p",
+	            { className: "listcourse" },
+	            "Course"
 	          ),
 	          _react2.default.createElement(
 	            "p",
-	            { className: "courseDesc" },
+	            { className: "coursedesc" },
 	            "Description: ",
 	            course.desc
 	          )
@@ -28014,7 +28033,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        { className: "fourOh" },
+	        { className: "fouroh" },
 	        _react2.default.createElement(
 	          "h1",
 	          null,
@@ -28036,291 +28055,411 @@
 	module.exports = [
 		{
 			"id": 0,
-			"name": "Blender Basics",
-			"desc": "The first steps to learning Blender",
-			"url": "https://cgcookie.com/course/blender-basics/"
+			"name": "Introduction to Blender",
+			"desc": "The best place to start",
+			"isFlow": true,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/isFlow/introduction-to-blender/"
 		},
 		{
 			"id": 1,
-			"name": "Mesh Modeling Fundamentals",
-			"desc": "Getting started with 3D Modeling",
-			"url": "https://cgcookie.com/course/mesh-modeling-fundamentals/"
+			"name": "Modeling in Blender",
+			"desc": "Let's learn Modeling!",
+			"isFlow": true,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/isFlow/modeling-in-blender/"
 		},
 		{
 			"id": 2,
-			"name": "Fundamentals of Texturing",
-			"desc": "Texture Painting, UV Unwrapping, Image Baking",
-			"url": "https://cgcookie.com/course/introduction-to-texturing/"
+			"name": "Introduction to Game Asset Creation",
+			"desc": "All about making game assets for games",
+			"isFlow": true,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/isFlow/introduction-to-game-asset-creation/"
 		},
 		{
 			"id": 3,
-			"name": "Fundamentals of Shading",
-			"desc": "Blender Render, and Cycles Shading",
-			"url": "https://cgcookie.com/course/shading-fundamentals-in-cycles/"
+			"name": "Concept Art Fundamentals",
+			"desc": "Learning the basics of 2D digital art",
+			"isFlow": true,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/isFlow/introduction-to-digital-art/"
 		},
 		{
 			"id": 4,
-			"name": "Fundamentals of Rigging",
-			"desc": "Learn to create rigs for your soon to be animated objects",
-			"url": "https://cgcookie.com/course/fundamentals-of-rigging/"
+			"name": "Introduction to Traditional Drawing",
+			"desc": "",
+			"isFlow": true,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/isFlow/introduction-to-traditional-drawing/"
 		},
 		{
 			"id": 5,
-			"name": "Fundamentals of Animation",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-animation/"
-		},
-		{
-			"id": 6,
-			"name": "Fundamentals of Dynamics",
-			"desc": "Physics, Simulation, and Particles in Blender",
-			"url": "https://cgcookie.com/course/fundamentals-of-dynamics/"
-		},
-		{
-			"id": 7,
-			"name": "Fundamentals of Lighting",
-			"desc": "The many ways to use light in Blender",
-			"url": "https://cgcookie.com/course/fundamentals-of-lighting/"
-		},
-		{
-			"id": 8,
-			"name": "Fundamentals of Rendering",
-			"desc": "Rendering with the Cycles Render Engine",
-			"url": "https://cgcookie.com/course/introduction-to-rendering/"
-		},
-		{
-			"id": 9,
-			"name": "Fundamentals of Compositing",
-			"desc": "Post-Processing in Blender",
-			"url": "https://cgcookie.com/course/fundamentals-of-compositing/"
-		},
-		{
-			"id": 10,
-			"name": "Basics of Digital Painting",
-			"desc": "Learning the basics of 2D digital art",
-			"url": "https://cgcookie.com/course/digital-painting-basics/"
-		},
-		{
-			"id": 11,
-			"name": "Shapes, Forms, and Contrast",
-			"desc": "Yes, I used the Oxford Comma in the title",
-			"url": "https://cgcookie.com/course/lighting-and-values/"
-		},
-		{
-			"id": 12,
-			"name": "Lighting and Values",
-			"desc": "Learn about using lighting and values in your digital art",
-			"url": "https://cgcookie.com/course/lighting-and-values-2/"
-		},
-		{
-			"id": 13,
-			"name": "The Color Course",
-			"desc": "Everything color (value)",
-			"url": "https://cgcookie.com/course/color-course-understanding-color/"
-		},
-		{
-			"id": 14,
-			"name": "Introduction to Materials and Texture",
-			"desc": "Learn to add realism to your materials",
-			"url": "https://cgcookie.com/course/introduction-to-materials-and-texture/"
-		},
-		{
-			"id": 15,
-			"name": "Introduction to 2D Perspective",
-			"desc": "",
-			"url": "https://cgcookie.com/course/the-perspective-course/"
-		},
-		{
-			"id": 16,
-			"name": "Sculpting Basics",
+			"name": "Introduction to Clay Sculpting",
 			"desc": "Get started with the basics of traditonal sculpting",
+			"isFlow": true,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/sculpting-basics/"
 		},
 		{
-			"id": 17,
-			"name": "Fundamentals of Sculpting with Clay",
-			"desc": "Learn the basics of sculpting with clay",
-			"url": "https://cgcookie.com/course/fundamentals-sculpting-with-clay/"
-		},
-		{
-			"id": 18,
-			"name": "Introduction to Human Anatomy and Basic Proportions",
-			"desc": "Start sculpting the human figure",
-			"url": "https://cgcookie.com/course/introduction-to-human-anatomy-and-basic-proportions/"
-		},
-		{
-			"id": 19,
-			"name": "Introduction to Mold Making and Molding Techniques",
-			"desc": "Learn to make your own molds",
-			"url": "https://cgcookie.com/course/introduction-to-mold-making-and-molding-techniques/"
-		},
-		{
-			"id": 20,
-			"name": "Introduction to Casting & Casting Techniques",
-			"desc": "All about casting",
-			"url": "https://cgcookie.com/course/introduction-to-casting-casting-techniques/"
-		},
-		{
-			"id": 21,
-			"name": "Unity Basics: Introduction For Beginners",
+			"id": 6,
+			"name": "Introduction to Unity",
 			"desc": "",
+			"isFlow": true,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/unity-basics-introduction-for-beginners/"
 		},
 		{
-			"id": 22,
-			"name": "Fundamentals of The Unity Interface",
+			"id": 7,
+			"name": "First Person Shooter",
 			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-the-unity-interface/"
+			"isFlow": true,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/isFlow/first-person-shooter/"
 		},
 		{
-			"id": 23,
-			"name": "Fundamentals of Materials and Textures",
+			"id": 8,
+			"name": "Developing for Virtual Reality",
 			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-materials-and-textures/"
+			"isFlow": true,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/isFlow/developing-for-virtual-reality/"
 		},
 		{
-			"id": 24,
-			"name": "Fundamentals of Lighting",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-lighting-2/"
-		},
-		{
-			"id": 25,
-			"name": "Fundamentals of Physics",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-physics/"
-		},
-		{
-			"id": 26,
-			"name": "Fundamentals of UI Design",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-ui-design/"
-		},
-		{
-			"id": 27,
-			"name": "Fundamentals of 2D Development",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-2d-development/"
-		},
-		{
-			"id": 28,
-			"name": "Fundamentals of Particle Systems",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-particle-systems/"
-		},
-		{
-			"id": 29,
-			"name": "Fundamentals of Terrain Generation",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-terrain-generation/"
-		},
-		{
-			"id": 30,
-			"name": "Fundamentals of Tree Creation",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-tree-creation/"
-		},
-		{
-			"id": 31,
-			"name": "Fundamentals of Pathfinding",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-pathfinding/"
-		},
-		{
-			"id": 32,
-			"name": "Fundamentals of Image Effects",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-image-effects/"
-		},
-		{
-			"id": 33,
-			"name": "Fundamentals of Mechanim Animation",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-mecanim-animation/"
-		},
-		{
-			"id": 34,
-			"name": "Fundamentals of Rigged Animations",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-rigged-animations/"
-		},
-		{
-			"id": 35,
-			"name": "Fundamentals of Game Publishing",
-			"desc": "",
-			"url": "https://cgcookie.com/course/fundamentals-of-game-publishing/"
-		},
-		{
-			"id": 36,
+			"id": 9,
 			"name": "Shader Forge",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/shader-forge/"
 		},
 		{
-			"id": 37,
+			"id": 10,
 			"name": "Sculpting the Wrangler",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/sculpting-the-wrangler/"
 		},
 		{
-			"id": 38,
+			"id": 11,
 			"name": "Art of Sculpting",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/art-of-sculpting/"
 		},
 		{
-			"id": 39,
+			"id": 12,
 			"name": "Wrangler Concept Art Course",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/wrangler-concept-art-course/"
 		},
 		{
-			"id": 40,
-			"name": "Introducion to Retopology",
-			"desc": "",
-			"url": "https://cgcookie.com/course/introduction-to-retopology/"
-		},
-		{
-			"id": 41,
+			"id": 13,
 			"name": "Creating Characters, Where to Start?",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/creating-characters-where-to-start/"
 		},
 		{
-			"id": 42,
+			"id": 14,
 			"name": "C# Bootcamp for Unity",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/c-bootcamp-for-unity/"
 		},
 		{
-			"id": 43,
+			"id": 15,
 			"name": "Creating a 2D Space Shooter",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/creating-a-2d-space-shooter/"
 		},
 		{
-			"id": 44,
+			"id": 16,
 			"name": "Gesture Importance",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/tutorial/gesture-importance/"
 		},
 		{
-			"id": 45,
+			"id": 17,
 			"name": "Introducion to Character Modeling",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/introduction-to-character-modeling/"
 		},
 		{
-			"id": 46,
+			"id": 18,
 			"name": "Introduction to Hard-Surface Modeling",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/introduction-to-hard-surface-modeling/"
 		},
 		{
-			"id": 47,
+			"id": 19,
 			"name": "Character Animation Toolkit",
 			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
 			"url": "https://cgcookie.com/course/character-animation-toolkit/"
+		},
+		{
+			"id": 20,
+			"name": "Modeling Stylized Hair",
+			"desc": "",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/modeling-stylized-hair/"
+		},
+		{
+			"id": 21,
+			"name": "Awesome Workshop!",
+			"desc": "Are you ready to take it to the next level?",
+			"isFlow": false,
+			"isWorkshop": true,
+			"url": "http://www.cgcookieworkshops.com/"
+		},
+		{
+			"id": 22,
+			"name": "",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": ""
+		},
+		{
+			"id": 23,
+			"name": "Green Screen Compositing",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/green-screen-compositing/"
+		},
+		{
+			"id": 24,
+			"name": "Sculpting a Chimera",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/sculpting-a-chimera/"
+		},
+		{
+			"id": 25,
+			"name": "Sculpting an Ear",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/sculpting-an-ear/"
+		},
+		{
+			"id": 26,
+			"name": "Painting a Rain Environment",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/painting-a-rain-environment/"
+		},
+		{
+			"id": 27,
+			"name": "The Importance of Throwaways",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/the-importance-of-throwaways/"
+		},
+		{
+			"id": 28,
+			"name": "Introduction to Compositing",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/introduction-to-compositing-in-blender/"
+		},
+		{
+			"id": 29,
+			"name": "Using the VSE as a Video Editing Tool",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/using-the-vse-as-a-video-editing-tool/"
+		},
+		{
+			"id": 30,
+			"name": "Compositor to VSE",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/compositor-to-vse/"
+		},
+		{
+			"id": 31,
+			"name": "Animating Perpetual Motion with F-Curves",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/animating-perpetual-motion-with-f-curves/"
+		},
+		{
+			"id": 32,
+			"name": "Adding Procedural Camera Shake",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/adding-procedural-camera-shake/"
+		},
+		{
+			"id": 33,
+			"name": "Creating the Ken Burns Effect",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/creating-the-ken-burns-effect/"
+		},
+		{
+			"id": 34,
+			"name": "Switching Between Multiple Cameras",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/tip-switching-between-multiple-cameras/"
+		},
+		{
+			"id": 35,
+			"name": "Rigging Train Wheels",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/rigging-train-wheels-within-blender/"
+		},
+		{
+			"id": 36,
+			"name": "Modeling a Motorcycle",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/modeling-a-motorcycle/"
+		},
+		{
+			"id": 37,
+			"name": "How to Create a Laser Beam",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/how-to-create-a-laser-beam-in-blender/"
+		},
+		{
+			"id": 38,
+			"name": "Modeling a Post Apocalyptic Vehicle",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/modeling-a-post-apocalyptic-vehicle/"
+		},
+		{
+			"id": 39,
+			"name": "Rigging Vehicles with Automatic Suspension",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/rigging-vehicles-with-automatic-suspension/"
+		},
+		{
+			"id": 40,
+			"name": "Short Film Character Production",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/short-film-character-production/"
+		},
+		{
+			"id": 41,
+			"name": "Parkour Character Animation",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/parkour-character-animation-in-blender/"
+		},
+		{
+			"id": 42,
+			"name": "Texturing & Shading a Stylistic Character",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/shading-fundamentals-in-blender-render/"
+		},
+		{
+			"id": 43,
+			"name": "Using Cycles' Hair BSDF Node",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/using-cycles-hair-bsdf-node/"
+		},
+		{
+			"id": 44,
+			"name": "Modeling Hard Surface Panels on Curved Surfaces",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/modeling-hard-surface-panels-on-curved-surfaces/"
+		},
+		{
+			"id": 45,
+			"name": "Modeling a Sci-Fi Helmet",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/modeling-a-sci-fi-helmet/"
+		},
+		{
+			"id": 46,
+			"name": "Shading a Sci-Fi Helmet",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/shading-the-sci-fi-helmet/"
+		},
+		{
+			"id": 47,
+			"name": "Realtime GLSL Lighting and Shading",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/tutorial/realtime-glsl-lighting-and-shading/"
+		},
+		{
+			"id": 48,
+			"name": "Modeling and Animating a Sci-Fi Hatch",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/modeling-and-animating-a-sci-fi-hatch/"
+		},
+		{
+			"id": 49,
+			"name": "Compositing a 3D Monster into a Live Action Scene",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": "https://cgcookie.com/course/compositing-a-3d-monster-into-a-live-action-scene/"
+		},
+		{
+			"id": 50,
+			"name": "",
+			"desc": "Description",
+			"isFlow": false,
+			"isWorkshop": false,
+			"url": ""
 		}
 	];
 
@@ -28337,15 +28476,18 @@
 			"name": "3D Generalist",
 			"focus": "Everything 3D Using Blender",
 			"list": [
+				0,
 				1,
 				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9
+				28,
+				17,
+				18,
+				19,
+				9,
+				11,
+				10,
+				40,
+				21
 			]
 		},
 		{
@@ -28358,14 +28500,12 @@
 			"list": [
 				0,
 				1,
-				2,
-				3,
-				7,
-				8,
+				13,
+				17,
 				9,
-				41,
-				45,
-				36
+				43,
+				42,
+				21
 			]
 		},
 		{
@@ -28379,13 +28519,16 @@
 				0,
 				1,
 				2,
-				3,
-				6,
-				7,
-				36,
+				17,
+				18,
+				47,
+				19,
+				20,
 				45,
 				46,
-				47
+				43,
+				48,
+				21
 			]
 		},
 		{
@@ -28396,14 +28539,12 @@
 			"name": "Digital Illustration",
 			"focus": "Digital Character Illustration",
 			"list": [
-				10,
-				11,
-				12,
+				3,
 				13,
-				14,
-				15,
-				41,
-				44
+				16,
+				26,
+				27,
+				21
 			]
 		},
 		{
@@ -28414,13 +28555,10 @@
 			"name": "Concept Art",
 			"focus": "Digital Concept Art",
 			"list": [
-				10,
-				11,
+				3,
 				12,
-				13,
-				14,
-				15,
-				39
+				27,
+				21
 			]
 		},
 		{
@@ -28431,11 +28569,10 @@
 			"name": "Traditonal Sculpting",
 			"focus": "Traditional Sculpting",
 			"list": [
-				16,
-				17,
-				18,
-				19,
-				20
+				5,
+				25,
+				24,
+				21
 			]
 		},
 		{
@@ -28446,21 +28583,10 @@
 			"name": "Game Development",
 			"focus": "Creating Games with Unity",
 			"list": [
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29,
-				30,
-				31,
-				32,
-				33,
-				34,
-				35
+				6,
+				7,
+				8,
+				21
 			]
 		},
 		{
@@ -28471,22 +28597,10 @@
 			"name": "Game Programming",
 			"focus": "Programming in C# with Unity",
 			"list": [
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29,
-				30,
-				31,
-				32,
-				33,
-				34,
-				35,
-				42
+				6,
+				7,
+				14,
+				21
 			]
 		},
 		{
@@ -28499,13 +28613,13 @@
 			"list": [
 				0,
 				1,
-				2,
-				3,
-				6,
-				7,
-				8,
-				9,
-				46
+				18,
+				36,
+				38,
+				44,
+				45,
+				46,
+				21
 			]
 		},
 		{
@@ -28518,15 +28632,19 @@
 			"list": [
 				0,
 				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				46
+				18,
+				36,
+				44,
+				48,
+				45,
+				46,
+				31,
+				32,
+				34,
+				35,
+				38,
+				39,
+				21
 			]
 		},
 		{
@@ -28539,13 +28657,12 @@
 			"list": [
 				0,
 				1,
-				2,
-				3,
-				6,
-				7,
-				38,
-				37,
-				40
+				11,
+				10,
+				11,
+				45,
+				46,
+				21
 			]
 		},
 		{
@@ -28558,16 +28675,14 @@
 			"list": [
 				0,
 				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				45,
-				47
+				17,
+				19,
+				31,
+				34,
+				37,
+				40,
+				41,
+				21
 			]
 		},
 		{
@@ -28578,22 +28693,9 @@
 			"name": "2D Game Development",
 			"focus": "Learn to create 2D games using Unity",
 			"list": [
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29,
-				30,
-				31,
-				32,
-				33,
-				34,
-				35,
-				43
+				6,
+				15,
+				21
 			]
 		},
 		{
@@ -28604,15 +28706,20 @@
 			"name": "Visual Effects",
 			"focus": "Learn all About creating amazing visuals using Blender",
 			"list": [
+				0,
 				1,
 				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9
+				19,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				37,
+				49,
+				21
 			]
 		},
 		{
@@ -28626,27 +28733,9 @@
 				0,
 				1,
 				2,
-				3,
-				4,
-				5,
 				6,
 				7,
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29,
-				30,
-				31,
-				32,
-				33,
-				34,
-				35,
-				36
+				21
 			]
 		},
 		{
@@ -28657,22 +28746,10 @@
 			"name": "2D Game Development Flow",
 			"focus": "Learn the entire process of creating a 2D game starting with pixel art",
 			"list": [
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29,
-				30,
-				31,
-				32,
-				33,
-				34,
-				35,
-				43
+				3,
+				4,
+				6,
+				15
 			]
 		}
 	];
