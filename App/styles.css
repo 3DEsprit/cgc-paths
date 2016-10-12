@@ -8,6 +8,7 @@ body {
   color: #e7e7e7;
   margin: 0;
   padding: 0;
+  padding-top: 100px;
   text-align: center; }
   body menu,
   body ul,
@@ -25,7 +26,11 @@ body {
   font-weight: bold;
   padding-bottom: 30px;
   padding-top: 15px;
-  text-align: center; }
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1000; }
 
 .button {
   background-color: #23272c;
