@@ -35,6 +35,10 @@ ul {
   padding-bottom: 30px;
 }
 
+.footer {
+  padding-bottom: 50px;
+}
+
 .start {
   color: #e7e7e7;
   text-align: center;
@@ -48,6 +52,7 @@ ul {
   width: 90%;
   height: 100px;
   background-color: #23272c;
+  transition: transform 1s, background 1.5s;
   text-align: center;
   list-style: none;
   padding: 10px 20px;
@@ -61,7 +66,7 @@ ul {
   display: inline-block;
   width: 80%;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-bottom: 10px;
 }
 
@@ -88,9 +93,9 @@ ul {
 
 .coursename {
   display: inline-block;
-  width: 85%;
+  width: 80%;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-bottom: 10px;
 }
 
@@ -100,17 +105,27 @@ ul {
   text-align: left;
 }
 
+.listshop {
+  display: inline-block;
+  width: 20%;
+  font-size: 0.8em;
+  text-align: right;
+  color: #a476e6;
+}
+
 .listflow {
   display: inline-block;
-  width: 15%;
+  width: 20%;
+  font-size: 0.8em;
   text-align: right;
-  color: #AFAFDF;
 }
 
 .listcourse {
   display: inline-block;
-  width: 15%;
+  width: 20%;
+  font-size: 0.8em;
   text-align: right;
+  color: #AFAFDF;
 }
 
 .listcontainer {
@@ -119,11 +134,17 @@ ul {
 }
 
 .listitem:hover {
-  background-color: #282d33;
+  transform: scale(1.02,1.02);
+  background-color: #23282d;
+}
+
+.pathitem:hover {
+  transform: scale(1.02,1.02);
+  background-color: #23282d;
 }
 
 .coursewell {
-  display: inline-block;
+  display: none;
   background-color: #23272c;
   border-radius: 50% 50%;
   text-align: left;
