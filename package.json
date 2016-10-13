@@ -1,6 +1,6 @@
 {
   "name": "cgcpaths",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "description": "CGCookie Paths",
   "main": "index.js",
   "scripts": {

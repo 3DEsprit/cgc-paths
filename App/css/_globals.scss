@@ -15,6 +15,11 @@ body {
   padding-top: 100px;
   text-align: center;
 
+  @media (max-width: 649px) {
+    padding-bottom: 50px;
+    padding-top: 150px;
+  }
+
   menu,
   ul,
   ol {

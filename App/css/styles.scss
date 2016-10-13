@@ -29,6 +29,17 @@
   z-index: 1000;
 }
 
+.footer {
+  background-color: $footer;
+  border: 1px solid $black;
+  bottom: 0;
+  color: $foreground;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
 .button {
   background-color: $items;
   border: 0;
@@ -58,6 +69,9 @@
 
 .listcontainer {
   // margin: $itemmar;
+  @media (max-width: 649px) {
+    height: 250px;
+  }
 
   .listitem,
   .pathitem {
@@ -71,7 +85,16 @@
     margin-bottom: $itemmar * 2;
     margin-top: 0;
     padding: 0 $itemmar * 2;
+    text-align: center;
     transition: background-color 1.5s .5s ease-in, transform 2s;
+
+    @media (min-width: 1159px) {
+      max-width: 800px;
+    }
+
+    @media (max-width: 649px) {
+      max-width: 600px;
+    }
 
     &:hover {
       background-color: lighten($items, 5%);
@@ -117,6 +140,9 @@
 .listname {
   @include path(80%, left);
   font-size: 1.2em;
+  @media (max-width: 649px) {
+    @include small(1em);
+  }
 }
 
 .listfocus {
@@ -132,6 +158,27 @@
   padding-top: $itemmar * 2;
   text-align: left;
   width: 5%;
+
+  @media (min-width: 1159px) {
+    max-height: 40px;
+    max-width: 40px;
+  }
+}
+
+.pathcourses,
+.listdesc {
+  @media (max-width: 649px) {
+    @include small(0.8em);
+  }
+}
+
+.listfocus,
+.listshop,
+.listtype,
+.listcourse {
+  @media (max-width: 649px) {
+    display: none;
+  }
 }
 
 .blender-button {
